@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+
+<head>
+    <script type="text/javascript" src="../js/comcode/com_head.js"></script>
+    <title>望关 - WangGuan SocialEssays</title>
+    <style rel="stylesheet">.lazy-image {background: url('../img/loading.gif') no-repeat center;background-size: 26% 35%;height: 100%;width: 100%;}</style>
+</head>
+<body>
+    <script type="text/javascript" src="../js/inside.global_header.js"></script>
+    <div id="d-audio" class="d-audio" style="width: 150px; z-index: 99; position: fixed; bottom: 5px; left: 5px;"></div>
+    <!--主体-->
+    <div class="big-container" id="particles-js">
+        <article class="article">
+            <div class="nb-a-holder">
+                <!--网页介绍-->
+                <div class="column-container">
+                    <ul class="column_box" id="like-box">
+                        <li class="column-title">
+                            <span class="at-sort b-b-ece fl"><a class="at-sort-comment-a c-666 fl">网站介绍</a></span>
+                        </li>
+                        <li class="person-img-li">
+                            <img alt="logo" id="person-img"
+                                src="../img/user.jpeg">
+                        </li>
+                        <li class="person-intro-detail gradient-text">
+                            <h1><a href="./inside.index.html"></a>人民万岁</h1>
+                        </li>
+                        <li class="person-intro-detail">
+                            <h3>里站[Inside]</h3>
+                            <h3>用于一些字眼敏感，不方便在墙内存活的文章的浏览</h3>
+                        </li>
+                        <li class="person-intro-detail">
+                            <h3>Based on：Github Pages;Go+Vue</h3>
+                        </li>
+                        <script type="text/javascript">
+                            function randomWord(){
+                                var quoteArr = [
+                                    '远看山有色',
+                                    '近听水无声',
+                                    '春去花还在',
+                                    '人来鸟不惊',
+                                    '雄关漫道真如铁，而今迈步从头越'
+                                ]
+                                return quoteArr[Math.floor(Math.random()*quoteArr.length())]
+                            }
+                        </script>
+                        <li class="person-intro-detail">
+                            <h6><script type="text/javascript">document.write(randomWord());</script></h6>
+                        </li>
+                    </ul>
+                </div>
+                <!--投稿须知-->
+                <div class="column-container-wider">
+                    <ul class="column_box" id="like-box">
+                        <li class="column-title">
+                            <span class="at-sort b-b-ece fl"><a class="at-sort-comment-a c-666 fl">投稿须知</a></span>
+                        </li>
+                        <li class="person-intro-detail">
+                            <strong>
+                                1.年龄不限。请在文章结尾投上你的网络昵称&截止日期（不要使用真名）<br>
+                                2.对马克思主义理论或其他进步左翼理论有较充分的了解。需要有一定的历史了解（像康德理性主义之类的探讨都是可以的）<br>
+                                3.主题明确，观点犀利，逻辑清晰，可以是分段论，字数不限（一般还是大于2000字），但是内容不要太水。<br>
+                                4,文本格式可以是：DOC，DOCX，TXT，PDF，PPT等等（能复制粘贴的都行，纸质照片因为处理太麻烦基本不考虑），我会统一处理为html代码文件<br>
+                                5.文章结构可以是：<br>
+                                标题-导言（可写可不写）-正文（可分段分层）-结束语-注释（可写可不写）<br>
+                                6.当然，写诗也是可以的（文笔优美当然更好）<br>
+                                7.投稿处理比较慢，可能隔天大后天能看到。<br>
+                                8.请将文章的文件格式投稿到邮箱 arbeiterklassen@163.com (不接受其他方式)<br><br>
+                            </strong>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--速览标识-->
+            <ul class="achieve-box">
+                <li class="detail-item" >
+                    <span style="text-align: center;display: block;font-size:large;">下方是文章速览</span>
+                </li>
+            </ul>
+            <!--文章-->
+            <div class="left-holder">
+                <!--文章内容-->
+                <div id="article-holder" style="width: 100%; float: left">
+                    <script type="text/javascript" src="../js/comcode/inside.com_artmenu.js">
+                    </script>
+                </div>
+            </div>
+        </article>
+    </div>
+    <!--尾部-->
+    <script type="text/javascript" src="../js/comcode/footer.js"></script>
+    <script type="text/javascript" defer>
+        const lazyImage = new LazyImage('.lazy-image');
+    </script>
+</body>
+
+</html>

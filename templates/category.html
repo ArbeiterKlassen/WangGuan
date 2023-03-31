@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+
+<head>
+    <script type="text/javascript" src="../js/comcode/com_head.js"></script>
+    <title>WGSOC__分类</title>
+    <style rel="stylesheet">.lazy-image {background: url('../img/loading.gif') no-repeat center;background-size: 26% 35%;height: 100%;width: 100%;}</style>
+</head>
+
+<body>
+    <script type="text/javascript" src="../js/global_header.js"></script>
+    <div id="d-audio" class="d-audio" style="width: 150px; z-index: 99; position: fixed; bottom: 5px; left: 5px;"></div>
+    <!--主体-->
+    <div class="big-container">
+        <article class="article">
+            <div style="width: 120px; height:auto;background-color: rgb(255, 113, 113);border-radius: 10px;">
+                <h3 style="text-align: center;color: #ffffff;">文章分类</h3>
+            </div>
+            <div style="width: 100%; height:auto;background-color: #ffffff;border-radius: 10px;transition:ease-in-out 0.3s;box-shadow: 0 0 10px rgba(184, 197, 214, .5);overflow: hidden;">
+                <h2 style="text-align: left;color: #000000;">这里存放我们建站以来的所有已有的文章（可以慢慢翻）</h2>
+                <br>
+                <br>
+            </div>
+            <!--右容器-->
+            <div class="right-holder">
+                <div class="column-container">
+                    <ul class="column_box" id="like-box">
+                        <li class="column-title">
+                            <span class="at-sort b-b-ece fl"><a class="at-sort-comment-a c-666 fl">分类</a></span>
+                        </li>
+                        <li class="column-category">
+                            <a href="category.html">
+                                政治经济学&nbsp;&nbsp;2&nbsp;篇
+                            </a>
+                        </li>
+                        <li class="column-category">
+                            <a href="category.html">
+                                社会分析&nbsp;&nbsp;6&nbsp;篇
+                            </a>
+                        </li>
+                        <li class="column-category">
+                            <a href="category.html">
+                                行动理论&nbsp;&nbsp;1&nbsp;篇
+                            </a>
+                        </li>
+                        <li class="column-category">
+                            <a href="category.html">
+                                杂记文章&nbsp;&nbsp;2&nbsp;篇
+                            </a>
+                        </li>
+                        <li class="column-category">
+                            <a href="category.html">
+                                转载&nbsp;&nbsp;2&nbsp;篇
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--左容器-->
+            <div class="result-box fl">
+                <!--文章内容-->
+                <div class="left-holder">
+                    <!--文章内容-->
+                    <script type="text/javascript" src="../js/comcode/com_artmenu.js"></script>
+                    <div id="article-holder" style="width: 100%; float: left">
+                        <div id="pages-container"></div>
+                        <div id="chooser-container">
+                            <script>
+                                function getParams(key) {
+                                    var reg = new RegExp("(^|&)" + key + "=([^&]*)(&|$)");
+                                    var r = window.location.search.substr(1).match(reg);
+                                    if (r != null) {
+                                        return unescape(r[2]);
+                                    }
+                                    return null;
+                                };
+                                var page = 1;
+                                if(getParams("page") != null){page = getParams("page")};
+                                function page_chooser(){
+                                    document.write('<div class="article-box" style="width:auto;height:32px;background-color:rgba(180,180,180,0)" id="choosen-container">')
+                                    document.write('    <div class="ab-content" style="background-color:rgba(180,180,180,0)">')
+                                    document.write('        <div style="height:32px;width:auto;border-radius:4px;margin: 0 auto;float:left;text-align:center;font-size:18px">'+"  共"+count+"篇文章 "+pages + "页  "+' </div>')
+                                    for(var i = 1;i<=pages;i++)document.write('<div class="choosen-box">'+'<a style="color:white" href="./category.html?page='+i+'">'+i+'</a></div>')
+                                    document.write('    </div>')
+                                    document.write('</div>')
+                                };
+                                print_page(page);
+                                page_chooser();
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+    <!--尾部-->
+    <script type="text/javascript" src="../js/comcode/footer.js"></script>
+    <script type="text/javascript">
+        // 图片懒加载
+        const lazyImage = new LazyImage('.lazy-image');
+    </script>
+</body>
+
+</html>
