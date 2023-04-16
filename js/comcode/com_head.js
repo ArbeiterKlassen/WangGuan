@@ -14,6 +14,11 @@ if(mode == 1){
     document.write('<meta name="HandheldFriendly" content="true">');
     document.write('<meta charset="UTF-8">');
     document.write('<meta name="keywords" content="">');
+    document.write('<meta name="description" content="">');
+    document.write('<link rel="stylesheet" href="../css/global.css">');
+    document.write('<link rel="stylesheet" href="../css/pace-theme-flash.css">');
+    document.write('<link rel="stylesheet" href="../css/d-audio.css">');
+    document.write('<link rel="stylesheet" href="../css/myPagination.css">');
     document.write('<link rel="stylesheet" href="../css/sign.css">');
     document.write('<link rel="stylesheet" href="../css/index.css">');
     document.write('<link rel="stylesheet" href="../css/archive.css">');
@@ -28,18 +33,13 @@ if(mode == 2){
     document.write('<meta name="keywords" content="">');
     document.write('<meta name="description" content="">');
     document.write('<meta name="author" content="">');
-    document.write('<link rel="stylesheet" href="../css/night/global.css">');
-    document.write('<link rel="stylesheet" href="../css/night/pace-theme-flash.css">');
-    document.write('<link rel="stylesheet" href="../css/night/d-audio.css">');
-    document.write('<link rel="stylesheet" href="../css/night/myPagination.css">');
-    document.write('<link rel="stylesheet" href="../css/night/sign.css">');
-    document.write('<link rel="stylesheet" href="../css/night/index.css">');
-    document.write('<link rel="stylesheet" href="../css/night/archive.css">');
-    document.write('<link rel="stylesheet" href="../css/night/link.css">');
-    document.write('<link rel="shortcut icon" href="../img/user.jpeg">');
-}            document.write('<meta name="description" content="">');
-    document.write('<meta name="author" content="">');
     document.write('<link rel="stylesheet" href="../css/global.css">');
     document.write('<link rel="stylesheet" href="../css/pace-theme-flash.css">');
     document.write('<link rel="stylesheet" href="../css/d-audio.css">');
     document.write('<link rel="stylesheet" href="../css/myPagination.css">');
+    document.write('<link rel="stylesheet" href="../css/sign.css">');
+    document.write('<link rel="stylesheet" href="../css/night.index.css">');
+    document.write('<link rel="stylesheet" href="../css/night.archive.css">');
+    document.write('<link rel="stylesheet" href="../css/night.link.css">');
+    document.write('<link rel="shortcut icon" href="../img/user.jpeg">');
+}            
