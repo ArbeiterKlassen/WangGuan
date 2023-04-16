@@ -9,18 +9,18 @@
 }
 
 .achieve-box {
-    background-color: #000000;
+    background-color: #ffffff;
     width: 78%;
     margin: 25px auto;
     padding: 25px 0;
     border-radius: 10px;
     transition: ease-in-out 0.3s;
-    box-shadow: 0 0 10px rgba(115, 115, 115, .5);
+    box-shadow: 0 0 10px rgba(184, 197, 214, .5);
     overflow: hidden;
 }
 
 .achieve-box:hover {
-    box-shadow: 0 0 10px rgba(115, 115, 115, .5);
+    box-shadow: 0 0 10px #767676;
 }
 
 .achieve-box .year {

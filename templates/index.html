@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="zh-cmn-Hans">
 <head>
-    <script type="text/javascript" src="../js/comcode/com_head.js"></script>
+    <!-- <script type="text/javascript" src="../js/comcode/com_head.js"></script> -->
+    <script src="../js/comcode/com_head.js"></script>
     <title>望关 - WangGuan Sociology</title>
     <style rel="stylesheet">.lazy-image {background: url('../img/loading.gif') no-repeat center;background-size: 26% 35%;height: 100%;width: 100%;}</style>
     <style>
@@ -64,8 +65,13 @@
                 document.write(intros[xtype]);
             </script></i>
         </div>
+        <div style="text-align: left;padding: 10px 10px 20px 20px;color: #ffffffb6;height:auto;background-color: #ff7272b6;border-radius: 15px;position:absolute;left: 20px;top: 500px;">
+            <div style="text-align: center;width: 100%;height:100%;border-radius: 10px;border-color: azure;">
+                <a href="https://imgloc.com/" style="color:rgba(240, 255, 255, 0.707)">图床=></a>
+            </div>
+        </div>
     </div>
-    <div class="big-container" style="background-color: rgb(255, 255, 255)" id="particles-js">  
+    <div class="big-container" id="particles-js">  
         <article class="article">
             <br>
             <div style="border-style:dashed;width: 80%;height: auto;padding: 5px 5px 5px 5px;border-width: 3px;border-color: #0000006d;border-radius: 10px;margin: 0 auto;">
@@ -102,15 +108,11 @@
                             <a href="./inside.index.html">里站[Inside]</a>
                         </li> -->
                         <div class="icon-center">
-                            <span class="icon-box"><a id="github-icon" target="_blank" href="https://github.com/arbeiterklassen"
-                                    class="foot-icon"></a>
+                            <span class="icon-box"><a id="github-icon" target="_blank" href="https://github.com/arbeiterklassen"class="foot-icon"></a>
                             </span>
-                            <span class="icon-box"><a id="qq-icon" target="_blank"
-                                    href="tencent://Message/?Uin=1038171180&amp;websiteName=q-zone.qq.com&amp;Menu=yes"
-                                    class="foot-icon"></a>
+                            <span class="icon-box"><a id="qq-icon" target="_blank"href="tencent://Message/?Uin=1038171180&amp;websiteName=q-zone.qq.com&amp;Menu=yes"class="foot-icon"></a>
                             </span>
-                            <span class="icon-box"><a id="bili-icon" target="_blank" href="https://space.bilibili.com/1763105507"
-                                    class="foot-icon"></a>
+                            <span class="icon-box"><a id="bili-icon" target="_blank" href="https://space.bilibili.com/1763105507"class="foot-icon"></a>
                             </span>
                         </div>
                     </ul>
@@ -169,7 +171,7 @@
                 <div class="column-container-wider">
                     <ul class="column_box" id="like-box">
                         <li class="column-title">
-                            <span class="at-sort b-b-ece fl"><a class="at-sort-comment-a c-666 fl">精选</a></span>
+                            <span class="at-sort b-b-ece fl"><a class="at-sort-comment-a c-666 fl">置顶</a></span>
                         </li>
                         <li class="person-intro-detail">
                             <strong></strong>
@@ -177,6 +179,16 @@
                     </ul>
                 </div>
                 <script type="text/javascript" src="../js/comcode/com_artmenu.js"></script>
+                <div class="column-container-wider">
+                    <ul class="column_box" id="like-box">
+                        <li class="column-title">
+                            <span class="at-sort b-b-ece fl"><a class="at-sort-comment-a c-666 fl">分类</a></span>
+                        </li>
+                        <li class="person-intro-detail">
+                            <strong></strong>
+                        </li>
+                    </ul>
+                </div>
                 <div id="article-holder" style="width: 100%; float: left">
                     <div id="celebrates-container"></div>
                     <script type="text/javascript" src="../js/celebrate.js"></script>
