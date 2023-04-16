@@ -3,8 +3,10 @@ document.write('<nav class="nav-bar-holder" style="background-color:#303643">')
 document.write('    <!--<img src="https://i.postimg.cc/RFyJLX7P/headimg.jpg" alt="Head Image" style="text-align: left;width:auto">-->')
 document.write('    <div class="nav-bar" id="nav-bar">')
 document.write('        <div class="logo-box">')
-document.write('            <a href="index.html" class="blog-title ta-c"><img style="vertical-align: top;height:32px" alt="logo"src="../img/user_ops.jpeg" /></a>')
+document.write('            <a href="index.html" class="blog-title ta-c"><img style="vertical-align: top;height:32px" alt="logo"src="https://i.328888.xyz/2023/04/16/iE7BTH.png" /></a>')
 document.write('        </div>')
+//https://i.328888.xyz/2023/04/16/iE7pEF
+
 document.write('        <div class="nb-a-holder" id="home"><a class="nb-a ta-c" href="../templates/index.html">首页</a></div>')
 document.write('        <div class="nb-a-holder" id="home"><a class="nb-a ta-c" href="../templates/aulim.html">关于</a></div>')
 document.write('        <div class="nb-a-holder" id="home"><a class="nb-a ta-c" href="../templates/web.sign.html">公告</a></div>')
