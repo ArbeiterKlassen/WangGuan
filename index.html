@@ -31,9 +31,64 @@
     <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
     <![endif]-->
+    <style>
+        .snow-container {
+            overflow: hidden;
+            width: 100%;
+            background-image:url('../img/headp7.jpg');
+            background-size: 100% auto;
+            max-width: 100%;
+            height: 100%;
+            pointer-events: none; /*阻止任何事件*/
+            }
+        .snow {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0; /*垂直、水平居中*/
+            margin: auto;
+            transform: translate(0, -100%);
+            animation: snowing infinite linear;
+            pointer-events: none;
+            }
+        .foreground {
+            animation-duration: 25s;
+            background-image: url('https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-large-075d267ecbc42e3564c8ed43516dd557.png');
+            }
+        .foreground.layer {
+            animation-delay: 12.5s; /*推迟时间是总时间/2*/
+            }
+        .medium {
+            animation-duration: 35s;
+            background-image: url('https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-medium-0b8a5e0732315b68e1f54185be7a1ad9.png');
+            }
+            .medium.layer {
+            animation-delay: 17.5s;
+            }
+            .background {
+            animation-duration: 45s;
+            background-image: url('https://dl6rt3mwcjzxg.cloudfront.net/assets/snow/snow-small-1ecd03b1fce08c24e064ff8c0a72c519.png');
+            }
+            .background.layer {
+            animation-delay: 22.5s;
+            }
+            @keyframes snowing {
+            100% {
+            transform: translate(15%, 100%);
+            }
+            }
+    </style>
 </head>
-
 <body style="background-image:url('https://i.328888.xyz/2022/12/07/fVYFq.jpeg');">
+    <div class="snow-container" style="z-index: 100;position: absolute;">
+        <div class="snow foreground"></div>
+        <div class="snow foreground layer"></div> <!--延迟衔接-->
+        <div class="snow medium"></div>
+        <div class="snow medium layer"></div>
+        <div class="snow background"></div>
+        <div class="snow background layer"></div>
+    </div>
     <div id="background-small"></div>
     <!-- Loading hover -->
     <div class="loading" style="display: none;">
@@ -64,13 +119,13 @@
                     Made with
                     <i class="fa fa-heart"></i> by
                     <br>
-                    <a href="./templates/index.html" target="_blank">WWW.WANGGUAN.SOC</a>
+                    <a href="./templates/index.html" target="_blank" style="color:rgb(255, 184, 184)">WWW.WANGGUAN.SOC</a>
                 </div>
             </div>
             <div class="right">
                 <section id="home" class="active">
                     <h1 style="font-family:Georgia, 'Times New Roman', Times, serif">
-                        Willkommen Auf WangGuan
+                        Willkommen Auf <div style="color:red;display: inline;">W</div>angGuan
                     </h1>
                     <h6 style="font-style: italic;">
                         欢 迎 回 来
@@ -92,7 +147,7 @@
                     </p>
                 </section>
                 <section id="contact" class="">
-                    <h1 style="font-family:Georgia, 'Times New Roman', Times, serif">Kontaktangaben</h1>
+                    <h1 style="font-family:Georgia, 'Times New Roman', Times, serif"><div style="color:red;display: inline;">K</div>ontaktangaben</h1>
                     <h6 style="font-style: italic;">
                         联 系 方 式
                     </h6>
@@ -108,7 +163,7 @@
                     </div>
                 </section>
                 <section id="qrcode" class="">
-                    <h1 style="font-family:Georgia, 'Times New Roman', Times, serif">Gruppe und QR-Code</h1>
+                    <h1 style="font-family:Georgia, 'Times New Roman', Times, serif"><div style="color:red;display: inline;">G</div>ruppe und QR-Code</h1>
                     <h6 style="font-style: italic;">
                         加 入 望 关 内 容 创 作
                     </h6>

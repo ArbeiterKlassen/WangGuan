@@ -301,6 +301,25 @@ input {
     border-bottom: solid 1px #ECECEC;
 }
 
+.topsign-title {
+    width: 100%;
+    height:auto;
+    background-color: #161728a0;
+    border-radius: 10px;
+    transition:ease-in-out 0.3s;
+    box-shadow: 0 0 10px rgba(184, 197, 214, .5);
+    overflow: hidden;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.topsign-title p{
+    color: #cbcbcb;
+}
+
+.topsign-text {
+    text-align: left;
+    color: #cbcbcb;
+}
+
 .search-s {
     min-width: 158px;
     height: 30px;
