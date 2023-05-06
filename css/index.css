@@ -511,7 +511,7 @@
 .card__side--back-3 {background: linear-gradient(-45deg, #9a4eff, #24ff72);}
 .card__side--back-4 {background: linear-gradient(-45deg, #325fb1, #171925);}
 .card__side--back-5 {background: #fff;}
-.card__side--back-6 {background-size: 100% auto;}
+.card__side--back-6 {background: #fff;}
 .card:hover .card__side--front-1,
 .card:hover .card__side--front-2,
 .card:hover .card__side--front-3,
