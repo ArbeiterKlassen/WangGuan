@@ -73,7 +73,7 @@ function clearcontent(elementID) {
 }
 function print_content(){
     document.write('<li class="column-title">')
-    document.write('<span class="at-sort b-b-ece fl"><a class="at-sort-comment-a c-666 fl">文章</a></span>')
+    document.write('<span class="at-sort b-b-ece fl"><a class="at-sort-comment-a c-666 fl" style="font-family: Georgia, Times New Roman, Times, serif;">文章</a></span>')
     document.write('</li>')
     var max = artmenu.length;
     var inity=2020;

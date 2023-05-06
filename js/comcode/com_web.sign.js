@@ -1,7 +1,7 @@
 document.write(' <div class="sign-container">')
 document.write('     <ul class="column_box" id="like-box">')
 document.write('         <li class="column-title">')
-document.write('             <span class="at-sort b-b-ece fl"><a class="at-sort-comment-a c-666 fl">Former</a></span>')
+document.write('             <span class="at-sort b-b-ece fl"><a class="at-sort-comment-a c-666 fl" style="font-size:x-large;font-family: Georgia, Times New Roman, Times, serif;">Former</a></span>')
 document.write('         </li>')
 
 

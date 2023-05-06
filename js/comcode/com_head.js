@@ -24,6 +24,7 @@ if(mode == 1){
     document.write('<link rel="stylesheet" href="../css/archive.css">');
     document.write('<link rel="stylesheet" href="../css/link.css">');
     document.write('<link rel="stylesheet" href="../css/about.css">');
+    document.write('<link rel="stylesheet" href="../css/font.css">');
     document.write('<link rel="shortcut icon" href="../img/user.jpeg">');
 }
 if(mode == 2){
@@ -43,5 +44,6 @@ if(mode == 2){
     document.write('<link rel="stylesheet" href="../css/night.archive.css">');
     document.write('<link rel="stylesheet" href="../css/night.link.css">');
     document.write('<link rel="stylesheet" href="../css/night.about.css">');
+    document.write('<link rel="stylesheet" href="../css/font.css">');
     document.write('<link rel="shortcut icon" href="../img/user.jpeg">');
 }            
