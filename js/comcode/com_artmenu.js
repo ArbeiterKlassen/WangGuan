@@ -1,4 +1,6 @@
 var artmenu = [
+    {number:11,type:"art",class:"",subtype:"normal",links:"../articles/000011.html",time:"2023-05-28",author:"马尔库塞",name:"马尔库塞：国家资本主义与全职异化劳动",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
+    {number:10,type:"art",class:"",subtype:"normal",links:"../articles/000010.html",time:"2023-05-28",author:"马尔库塞",name:"马尔库塞：论科学和现象学",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
     {number:9,type:"art",class:"",subtype:"normal",links:"../articles/000009.html",time:"2023-05-27",author:"马尔库塞",name:"马尔库塞：论思想现如今的处境",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
     {number:8,type:"art",class:"",subtype:"normal",links:"../articles/000008.html",time:"2023-05-27",author:"Alexandre Chirat",name:"Alexandre Chirat:尼采和工作：我们时代的“恶”",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
     {number:7,type:"art",class:"",subtype:"normal",links:"../articles/000007.html",time:"2023-04-16",author:"ArbeiterKlassen",name:"如何哲学地学习哲学",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
