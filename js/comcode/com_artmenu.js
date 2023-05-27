@@ -59,12 +59,12 @@ for(var i = 0; i<max;i++){if(artmenu[i].type=='art'){count+=1}};
 var pages = (count - count%eachpage)/eachpage + 1;
 var initpage = 1;
 var x;
-function print_page(pagename){
+function print_page(pagename,colormode){
     if(pagename == pages){x = count%eachpage+(pagename-1)*eachpage}
     else{x = 10 + (pagename-1)*eachpage};
     for(var i = (pagename-1)*eachpage;i<x;){
         if(artmenu[i].type=="art"){
-            document.getElementById('pages-container').innerHTML += '<div class="article-box">'+'<div class="ab-content">'+'<a href="'+artmenu[i].links+'" class="article-img-box">'+'<img class="lazy-image article-img" data-src="'+artmenu[i].headpic+'" alt="" src="'+artmenu[i].headpic+'">'+'</a>'+'<div class="article-title">'+'<a href="'+artmenu[i].links+'">'+artmenu[i].name+'</a>'+'</div>'+'<div class="article-detail-box c-666">'+artmenu[i].detail+'</div>'+'<span class="article-tail-box">'+'<span class="article-date c-999">'+artmenu[i].time+'</span>'+'<span class="article-author one-line-overflow c-999">'+artmenu[i].author+'</span>'+'</span>'+'</div>'+'</div>'
+            document.getElementById('pages-container').innerHTML += '<div class="article-box">'+'<div class="ab-content">'+'<a href="'+artmenu[i].links+'?mode='+colormode+'" class="article-img-box">'+'<img class="lazy-image article-img" data-src="'+artmenu[i].headpic+'" alt="" src="'+artmenu[i].headpic+'">'+'</a>'+'<div class="article-title">'+'<a href="'+artmenu[i].links+'?mode='+colormode+'">'+artmenu[i].name+'</a>'+'</div>'+'<div class="article-detail-box c-666">'+artmenu[i].detail+'</div>'+'<span class="article-tail-box">'+'<span class="article-date c-999">'+artmenu[i].time+'</span>'+'<span class="article-author one-line-overflow c-999">'+artmenu[i].author+'</span>'+'</span>'+'</div>'+'</div>'
             i++;
         }
     }
