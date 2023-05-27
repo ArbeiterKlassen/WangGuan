@@ -1,6 +1,6 @@
 var artmenu = [
-    
-    {number:7,type:"art",class:"",subtype:"normal",links:"../articles/000008.html",time:"2023-05-27",author:"Alexandre Chirat",name:"Alexandre Chirat:尼采和工作：我们时代的“恶”",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
+    {number:9,type:"art",class:"",subtype:"normal",links:"../articles/000009.html",time:"2023-05-27",author:"马尔库塞",name:"马尔库塞：论思想现如今的处境",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
+    {number:8,type:"art",class:"",subtype:"normal",links:"../articles/000008.html",time:"2023-05-27",author:"Alexandre Chirat",name:"Alexandre Chirat:尼采和工作：我们时代的“恶”",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
     {number:7,type:"art",class:"",subtype:"normal",links:"../articles/000007.html",time:"2023-04-16",author:"ArbeiterKlassen",name:"如何哲学地学习哲学",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
     // {number:,type:"art",class:"",subtype:"essay",links:"../essays/论哲学归宿，保卫哲学和继续实践.pdf",time:"2023-1-24",author:"ArbeiterKlassen",name:"论哲学归宿，保卫哲学和继续实践",headpic:"https://i.postimg.cc/FRQcPq8w/marx1.jpg",detail:"历史政治经济运动和其反映出的社会运动不仅仅要反过来反映其时代思想，还要反过来指向政治经济和社会文化各个层面的社会矛盾。那么，研究历史逻辑的过程必须形成对社会矛盾的认识，而得到这些认识——就自发地将它们应用到现代社会政治经济的矛盾分析中。这个过程——认识和分析世界的过程是哲学的发端及其归宿。"},
     // {number:,type:"art",class:"",subtype:"normal",links:"../articles/关于深圳中学学生自学驱动力及学习方法的来源的见解.html",time:"2023-1-22",author:"蚌埠黄豆不怕流汗",name:"关于深圳中学学生自学驱动力及学习方法的来源的见解",headpic:"https://i.postimg.cc/ZKYPtGnS/hengshui1.jpg",detail:"被统治阶级往往具有一种愚昧性，但这并不是被统治阶级的错，而是统治阶级在精神上奴役被统治阶级的表现。"},
