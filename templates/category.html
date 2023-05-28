@@ -69,12 +69,9 @@
                                 function getParams(key) {
                                     var reg = new RegExp("(^|&)" + key + "=([^&]*)(&|$)");
                                     var r = window.location.search.substr(1).match(reg);
-                                    if (r != null) {
-                                        return unescape(r[2]);
-                                    }
-                                    return null;
+                                    if (r != null) {return unescape(r[2]);}return null;
                                 };
-                                var page = 1;
+                                var page = 1;var cate = 'all';
                                 if(getParams("page") != null){page = getParams("page")};
                                 function page_chooser(){
                                     document.write('<div class="article-box" style="width:auto;height:32px;background-color:rgba(180,180,180,0)" id="choosen-container">')
@@ -86,6 +83,7 @@
                                 };
                                 print_page(page,mode);
                                 page_chooser();
+                                if(getParams("cate") != null){cate = getParams("cate")};
                             </script>
                         </div>
                     </div>

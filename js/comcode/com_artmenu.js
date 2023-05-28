@@ -77,7 +77,7 @@ function print_page(pagename,colormode){
 var searchmode = 1;
 function clearcontent(elementID) {
     document.getElementById(elementID).innerHTML = "";
-}
+};
 function print_content(){
     document.write('<li class="column-title">')
     document.write('<span class="at-sort b-b-ece fl"><a class="at-sort-comment-a c-666 fl" style="font-family: Georgia, Times New Roman, Times, serif;">文章</a></span>')
@@ -90,7 +90,7 @@ function print_content(){
         if(parseInt(date[0]) > inity){inity++;document.write('<li class="person-intro-detail gradient-text">'+inity+'</li>');}
         document.write('<li class="person-intro-detail"><span class="date">'+date[1]+'-'+date[2]+' </span><a href="'+artmenu[i].links+'" class="title">'+artmenu[i].name+'</a></li>');
     }};
-}
+};
 function output(){
     clearcontent('1');
     clearcontent('2');
