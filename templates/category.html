@@ -23,6 +23,56 @@
             var mode = 1;
         if(getParams("mode") != null){mode = getParams("mode")};
     </script>
+    <div id="headpic" class="headpic">
+        <script>
+            var pics = [
+            "https://i.imgloc.com/2022/12/07/fVTsV.jpeg",
+            "https://i.imgloc.com/2022/12/07/fV1fd.jpeg",
+            "https://i.imgloc.com/2022/12/07/fVQ8b.jpeg",
+            "https://i.imgloc.com/2022/12/07/fVYFq.jpeg",
+            "https://i.imgloc.com/2022/12/07/fVqYz.jpeg",
+            "https://i.imgloc.com/2022/12/07/ffZww.jpeg",
+            "https://i.imgloc.com/2022/12/08/fpP1d.jpeg",
+            "https://i.imgloc.com/2022/12/08/fpp03.jpeg",
+            "https://i.imgloc.com/2022/12/08/fpXJ5.jpeg",
+            "https://i.imgloc.com/2022/12/08/fp6OQ.jpeg",
+            "https://i.imgloc.com/2022/12/08/fpFzE.jpeg",
+            "https://i.imgloc.com/2022/12/08/fpG1C.jpeg"
+            ]
+            var intros = [
+                "我们今天的家将是马德里",
+                "国际主义",
+                "阿芙乐尔的炮声终会再次响起",
+                "雪原，冰河流淌其上",
+                "国际妇女的解放必胜",
+                "保卫和平和革命！",
+                "两种宇宙观；矛盾的普遍性；矛盾的特殊性；主要的矛盾和主要的矛盾方面；矛盾诸方面的同一性和斗争性；对抗在矛盾中的地位。————毛泽东",
+                "你是为了吃饭而生存，还是为了生存而吃饭呢? ————苏格拉底",
+                "理性精神的王国永存",
+                "当我们一提到本质时，我们便将本质与存在加以区别，而认存在为直接的东西，与本质比较看来，只是一种假象。但这种假象并非空无所有，完全无物，而是一种被扬弃的存在。本质的观点是反思的观点......哲学的任务或目的在于认识事物的本质，不应当让事物停留在它的直接性里，而须指出它是以别的事物为中介或根据的。————黑格尔",
+                "帝国主义是资本主义的最高阶段————列宁",
+                "砸碎铁链"
+            ]
+            xtype = Math.floor(Math.random()*(pics.length-1));
+            document.write('<img style="width: 100%; height:auto" alt="" src="'+pics[xtype]+'">');
+        </script>
+    </div>
+    <div class="headpic-cover">
+        <div style="margin: 0 auto;top:210px;text-align: center;padding: 10px 10px 20px 20px;color: #ffffff;position: absolute;width: 100%;">
+            <script type="text/javascript" src="../js/comcode/com_artmenu.js"></script>
+            <h1 style="font-family: 'Kanji-kai-2', 'Mulish', -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;margin: 0 auto;text-align: center;font-size: 70px;font-weight: 100;">文章分类</h1>
+        </div>
+        <div style="text-align: center;padding: 10px 10px 20px 20px;color: #ffffffb6;width: 500px;height:auto;background-color: #0000006c;border-radius: 15px;position:relative;margin: 0 auto;top: 430px;">
+            <i><script>
+                document.write(intros[xtype]);
+            </script></i>
+        </div>
+        <div style="text-align: left;padding: 10px 10px 20px 20px;color: #ffffffb6;height:auto;background-color: #0000006c;border-radius: 15px;position:absolute;left: 20px;top: 500px;">
+            <div style="text-align: center;width: 100%;height:100%;border-radius: 10px;border-color: azure;">
+                <a href="https://imgloc.com/" style="color:#ffffff">图床=></a>
+            </div>
+        </div>
+    </div>
     <div class="big-container">
         <article class="article">
             <div style="width: 120px; height:auto;background-color: rgb(222, 0, 0);border-radius: 10px;">
