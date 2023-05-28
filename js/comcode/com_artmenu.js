@@ -1,12 +1,12 @@
 var artmenu = [
-    {number:14,type:"art",class:"",subtype:"normal",links:"../articles/000014.html",time:"2023-05-28",author:"马尔库塞",name:"马尔库塞：爱欲、恐怖、青年人与精神疗法（三）",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
-    {number:13,type:"art",class:"",subtype:"normal",links:"../articles/000013.html",time:"2023-05-28",author:"马尔库塞",name:"马尔库塞：爱欲、恐怖、青年人与精神疗法（二）",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
-    {number:12,type:"art",class:"",subtype:"normal",links:"../articles/000012.html",time:"2023-05-28",author:"马尔库塞",name:"马尔库塞：爱欲、恐怖、青年人与精神疗法（一）",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
-    {number:11,type:"art",class:"",subtype:"normal",links:"../articles/000011.html",time:"2023-05-28",author:"马尔库塞",name:"马尔库塞：国家资本主义与全职异化劳动",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
-    {number:10,type:"art",class:"",subtype:"normal",links:"../articles/000010.html",time:"2023-05-28",author:"马尔库塞",name:"马尔库塞：论科学和现象学",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
-    {number:9,type:"art",class:"",subtype:"normal",links:"../articles/000009.html",time:"2023-05-27",author:"马尔库塞",name:"马尔库塞：论思想现如今的处境",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
-    {number:8,type:"art",class:"",subtype:"normal",links:"../articles/000008.html",time:"2023-05-27",author:"Alexandre Chirat",name:"Alexandre Chirat:尼采和工作：我们时代的“恶”",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
-    {number:7,type:"art",class:"",subtype:"normal",links:"../articles/000007.html",time:"2023-04-16",author:"ArbeiterKlassen",name:"如何哲学地学习哲学",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
+    {number:14,type:"art",class:"deu",subtype:"normal",links:"../articles/000014.html",time:"2023-05-28",author:"马尔库塞",name:"马尔库塞：爱欲、恐怖、青年人与精神疗法（三）",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
+    {number:13,type:"art",class:"deu",subtype:"normal",links:"../articles/000013.html",time:"2023-05-28",author:"马尔库塞",name:"马尔库塞：爱欲、恐怖、青年人与精神疗法（二）",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
+    {number:12,type:"art",class:"deu",subtype:"normal",links:"../articles/000012.html",time:"2023-05-28",author:"马尔库塞",name:"马尔库塞：爱欲、恐怖、青年人与精神疗法（一）",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
+    {number:11,type:"art",class:"deu",subtype:"normal",links:"../articles/000011.html",time:"2023-05-28",author:"马尔库塞",name:"马尔库塞：国家资本主义与全职异化劳动",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
+    {number:10,type:"art",class:"deu",subtype:"normal",links:"../articles/000010.html",time:"2023-05-28",author:"马尔库塞",name:"马尔库塞：论科学和现象学",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
+    {number:9,type:"art",class:"deu",subtype:"normal",links:"../articles/000009.html",time:"2023-05-27",author:"马尔库塞",name:"马尔库塞：论思想现如今的处境",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
+    {number:8,type:"art",class:"deu",subtype:"normal",links:"../articles/000008.html",time:"2023-05-27",author:"Alexandre Chirat",name:"Alexandre Chirat:尼采和工作：我们时代的“恶”",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
+    {number:7,type:"art",class:"wan",subtype:"normal",links:"../articles/000007.html",time:"2023-04-16",author:"ArbeiterKlassen",name:"如何哲学地学习哲学",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
     // {number:,type:"art",class:"",subtype:"essay",links:"../essays/论哲学归宿，保卫哲学和继续实践.pdf",time:"2023-1-24",author:"ArbeiterKlassen",name:"论哲学归宿，保卫哲学和继续实践",headpic:"https://i.postimg.cc/FRQcPq8w/marx1.jpg",detail:"历史政治经济运动和其反映出的社会运动不仅仅要反过来反映其时代思想，还要反过来指向政治经济和社会文化各个层面的社会矛盾。那么，研究历史逻辑的过程必须形成对社会矛盾的认识，而得到这些认识——就自发地将它们应用到现代社会政治经济的矛盾分析中。这个过程——认识和分析世界的过程是哲学的发端及其归宿。"},
     // {number:,type:"art",class:"",subtype:"normal",links:"../articles/关于深圳中学学生自学驱动力及学习方法的来源的见解.html",time:"2023-1-22",author:"蚌埠黄豆不怕流汗",name:"关于深圳中学学生自学驱动力及学习方法的来源的见解",headpic:"https://i.postimg.cc/ZKYPtGnS/hengshui1.jpg",detail:"被统治阶级往往具有一种愚昧性，但这并不是被统治阶级的错，而是统治阶级在精神上奴役被统治阶级的表现。"},
     // {number:,type:"art",class:"",subtype:"normal",links:"../articles/对文化自信的一点讨论.html",time:"2023-1-12",author:"SW-Eril",name:"对文化自信的一点讨论",headpic:"https://i.postimg.cc/XYzyG40v/captitalism1.jpg",detail:"资产阶级现在所宣传的反动文化所表现的核心行为会造成文化的侵略性和“正确性”。"},
@@ -14,18 +14,18 @@ var artmenu = [
     // {number:,type:"art",class:"",subtype:"normal",links:"../articles/论苏联解体和修正主义.html",time:"2022-12-25",author:"浮生",name:"论苏联解体和修正主义",headpic:"https://i.postimg.cc/J4wndQT3/revisionism1.png",detail:""},
     // {number:,type:"art",class:"",subtype:"essay",links:"../articles/自由论-警惕自由主义的腐蚀.html",time:"2022-12-25",author:"浮生",name:"自由论-警惕自由主义的腐蚀",headpic:"https://i.postimg.cc/2yW5Sq5B/critic-of-freedom1.png",detail:""},
     // {number:,type:"art",class:"",subtype:"normal",links:"../articles/中国领导下的人口问题.html",time:"2022-12-25",author:"浮生",name:"中国领导下的人口问题",headpic:"https://i.postimg.cc/J4wndQT3/revisionism1.png",detail:""},
-    {number:6,type:"art",class:"",subtype:"normal",links:"../articles/000006.html",time:"2022-12-25",author:"浮生",name:"哲学世界的两大家族",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
+    {number:6,type:"art",class:"soc",subtype:"normal",links:"../articles/000006.html",time:"2022-12-25",author:"浮生",name:"哲学世界的两大家族",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
     // {number:,type:"art",class:"",subtype:"normal",links:"../articles/一线汽修工人采访记录.html",time:"2022-12-25",author:"铃秋",name:"一线汽修工人采访记录",headpic:"https://i.postimg.cc/qvDXKYLX/worker1.jpg",detail:""},
-    {number:5,type:"art",class:"",subtype:"normal",links:"../articles/000005.html",time:"2022-12-25",author:"八小时 稻公",name:"家庭和爱情",headpic:"https://i.postimg.cc/FRQcPq8w/marx1.jpg",detail:""},
+    {number:5,type:"art",class:"soc",subtype:"normal",links:"../articles/000005.html",time:"2022-12-25",author:"八小时 稻公",name:"家庭和爱情",headpic:"https://i.postimg.cc/FRQcPq8w/marx1.jpg",detail:""},
     // {number:,type:"art",class:"",subtype:"essay",links:"../articles/集权论-法西斯主义是什么.html",time:"2022-12-25",author:"浮生",name:"集权论-法西斯主义是什么",headpic:"https://i.postimg.cc/vBBgbH9W/anti-Fascism1.jpg",detail:""},
     // {number:,type:"art",class:"",subtype:"normal",links:"../articles/何去何从-社会主义还是沙文主义.html",time:"2022-12-25",author:"浮生",name:"何去何从-社会主义还是沙文主义",headpic:"https://i.postimg.cc/PfvJ47Mr/jingoism1.png",detail:""},
-    {number:4,type:"art",class:"",subtype:"normal",links:"../articles/000004.html",time:"2022-12-25",author:"超级阿伏伽德罗",name:"孤独摇滚",headpic:"https://i.postimg.cc/FRQcPq8w/marx1.jpg",detail:""},
+    {number:4,type:"art",class:"soc",subtype:"normal",links:"../articles/000004.html",time:"2022-12-25",author:"超级阿伏伽德罗",name:"孤独摇滚",headpic:"https://i.postimg.cc/FRQcPq8w/marx1.jpg",detail:""},
     // {number:,type:"art",class:"",subtype:"essay",links:"../articles/斗争论-无产阶级的阶级斗争.html",time:"2022-12-25",author:"浮生",name:"斗争论-无产阶级的阶级斗争",headpic:"https://i.postimg.cc/15ptxNTk/kampf1.png",detail:""},
     // {number:,type:"art",class:"",subtype:"normal",links:"../articles/站稳政治立场，坚定政治信仰.html",time:"2022-11-29",author:"笑笑",name:"站稳政治立场，坚定政治信仰",headpic:"https://i.postimg.cc/fLjd1Chy/mao4.jpg",detail:""},
     // {number:,type:"art",class:"",subtype:"normal",links:"../articles/和我们队伍中的民粹主义者划清界限.html",time:"2022-11-04",author:"苏维埃小九",name:"和我们队伍中的民粹主义者划清界限",headpic:"https://i.postimg.cc/TYHb8hBV/populism1.jpg",detail:""},
     // {number:,type:"art",class:"",subtype:"normal",links:"../articles/对于革命的路线问题的一个论述.html",time:"2022-10-08",author:"苏维埃小九",name:"对于革命的路线问题的一个论述",headpic:"https://i.postimg.cc/x1wbChfq/AnaCom1.jpg",detail:""},
     // {number:,type:"art",class:"",subtype:"normal",links:"../articles/【小说】九篇小说.html",time:"2022-01-31",author:"奇才",name:"【小说】九篇小说",headpic:"https://i.postimg.cc/RZywtqRS/anti-Revision1.jpg",detail:""},
-    {number:3,type:"art",class:"",subtype:"normal",links:"../articles/000003.html",time:"2022-01-22",author:"阿兰-彭加姆",name:"阿兰-彭加姆:无政府主义共产主义者",headpic:"https://i.postimg.cc/x1wbChfq/AnaCom1.jpg",detail:""},
+    {number:3,type:"art",class:"rus",subtype:"normal",links:"../articles/000003.html",time:"2022-01-22",author:"阿兰-彭加姆",name:"阿兰-彭加姆:无政府主义共产主义者",headpic:"https://i.postimg.cc/x1wbChfq/AnaCom1.jpg",detail:""},
     // {number:,type:"art",class:"",subtype:"normal",links:"../articles/中共（修）研究.html",time:"2022-01-22",author:"奇才",name:"中共（修）研究",headpic:"https://i.postimg.cc/RZywtqRS/anti-Revision1.jpg",detail:""},
     // {number:,type:"art",class:"",subtype:"normal",links:"../articles/【转载】请看苏修的新玩意儿.html",time:"2022-01-21",author:"《红旗》",name:"【转载】请看苏修的新玩意儿",headpic:"https://i.postimg.cc/43cVQZLz/mao3.jpg",detail:""},
     // {number:,type:"art",class:"",subtype:"normal",links:"../articles/太阳照常升起.html",time:"2021-09-09",author:"ArbeiterKlassen",name:"太阳照常升起",headpic:"https://i.postimg.cc/43cVQZLz/mao3.jpg",detail:""},
@@ -37,8 +37,8 @@ var artmenu = [
     // {number:,type:"art",class:"",subtype:"normal",links:"../articles/谈近期的反黑人思潮.html",time:"2021-08-17",author:"ArbeiterKlassen",name:"谈近期的反黑人思潮",headpic:"https://i.postimg.cc/VsW9hfYg/anti-Racism1.jpg",detail:"随着我国改革开放的推进，中国的综合国力不断增强；同时，经济实力的不断提高，吸引了一大批外国籍人士来华。2000年之后，随着我国与大量亚非国家共创的“一带一路”建设的不断推进，大批非洲国家人士来华留学经商。大批非洲国家人士——或者直说黑人入境，直接引发了两个问题——怎么安置外国人？怎么指定对外国人的相应政策？"},
     // {number:,type:"art",class:"",subtype:"essay",links:"../articles/怎么办（1）.html",time:"2021-07-23",author:"ArbeiterKlassen",name:"怎么办（1）",headpic:"https://i.postimg.cc/RVP7MgJn/mao1.jpg",detail:"进入20世纪，俄国首先爆发了1917年的十月革命，一声炮响给中国人民带来了马克思主义。紧接着是1915年中国新文化运动向马克思主义的转变和1919年五四运动的爆发，青年学生和工人站在了革命的前线。1921年，中国共产党成立并开始领导中国工人运动。"},
     // {number:,type:"art",class:"",subtype:"normal",links:"../articles/谈巴以冲突.html",time:"2021-06-29",author:"ArbeiterKlassen",name:"谈巴以冲突",headpic:"https://i.postimg.cc/RVP7MgJn/mao1.jpg",detail:":民族矛盾的根源还是阶级矛盾。马克思主义认为，民族矛盾的表象是宗教、民族、领土冲突，实质是不同阶级的矛盾，即民族矛盾的本质还是阶级矛盾。"},
-    {number:2,type:"art",class:"",subtype:"essay",links:"../articles/000002.html",time:"2021-05-06",author:"Faschiung",name:"论信息化资本主义",headpic:"https://i.postimg.cc/FRQcPq8w/marx1.jpg",detail:"自20世纪40至50年代起，电子计算——即后来的计算机的兴起促使社会生产力大幅提高。90年代后互联网在全球普及，美国的苹果、微软等公司腾飞；"},
-    {number:1,type:"art",class:"",subtype:"essay",links:"../articles/000001.html",time:"2021-03-13",author:"Faschiung",name:"中产阶级扩大论",headpic:"https://i.postimg.cc/FRQcPq8w/marx1.jpg",detail:"中产阶级，即小资产阶级实际上是无产阶级中的特殊组成部分，占有少部分的生产资料，但不属于大资产阶级。既可以单独作为社会阶级之一，也可以划分进无产阶级之内。"},
+    {number:2,type:"art",class:"soc",subtype:"essay",links:"../articles/000002.html",time:"2021-05-06",author:"Faschiung",name:"论信息化资本主义",headpic:"https://i.postimg.cc/FRQcPq8w/marx1.jpg",detail:"自20世纪40至50年代起，电子计算——即后来的计算机的兴起促使社会生产力大幅提高。90年代后互联网在全球普及，美国的苹果、微软等公司腾飞；"},
+    {number:1,type:"art",class:"soc",subtype:"essay",links:"../articles/000001.html",time:"2021-03-13",author:"Faschiung",name:"中产阶级扩大论",headpic:"https://i.postimg.cc/FRQcPq8w/marx1.jpg",detail:"中产阶级，即小资产阶级实际上是无产阶级中的特殊组成部分，占有少部分的生产资料，但不属于大资产阶级。既可以单独作为社会阶级之一，也可以划分进无产阶级之内。"},
 
     {type:"doc",subtype:"normal",links:"../docs/doc-2022-09-12.pdf",time:"2022-09-12",author:"赤原社",name:"二〇二二年九月八日和九月十五日社内事务文件",headpic:"",detail:""},
     {type:"doc",subtype:"normal",links:"../docs/doc-2022-09-14.pdf",time:"2022-09-14",author:"赤原社",name:"二〇二二年社团纳新登记表",headpic:"",detail:""},
@@ -78,6 +78,17 @@ var searchmode = 1;
 function clearcontent(elementID) {
     document.getElementById(elementID).innerHTML = "";
 };
+function print_category(cate){
+    var max = artmenu.length;
+    var date;
+    date = artmenu[0].time.split("-");
+    var inity = date[0] + 1;
+    for(var i = 0; i<=max-1;i++){if(artmenu[i].class==cate){
+        date = artmenu[i].time.split("-");
+        if(parseInt(date[0])<inity){inity = date[0];document.write('<li class="person-intro-detail gradient-text" style="font-size:x-large">'+inity+'</li>');}
+        document.write('<li class="person-intro-detail"><span class="date" style="font-size:small;color:#666">'+date[1]+'-'+date[2]+'  </span><a href="'+artmenu[i].links+'" class="title" style="font-size:x-large">'+artmenu[i].name+'</a></li><br>');
+    }};
+}
 function print_content(){
     document.write('<li class="column-title">')
     document.write('<span class="at-sort b-b-ece fl"><a class="at-sort-comment-a c-666 fl" style="font-family: Georgia, Times New Roman, Times, serif;">文章</a></span>')

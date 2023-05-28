@@ -57,7 +57,8 @@
                         };
                         var cate = -1;
                         if(getParams("cate") != null)cate = getParams("cate");
-                        var translate = ['当代社会','望关读书会','法兰西哲学','意大利哲学','德意志哲学','古希腊哲学','苏东-俄罗斯哲学','西方马克思主义','其他哲学','加入望关'];
+                        var translate = ['当代社会','望关读书会','法兰西哲学','意大利哲学','德意志哲学','古希腊哲学','苏东-俄罗斯哲学','西方马克思主义','其他哲学'];
+                        var numcate = ['soc','wan','fra','ita','deu','gre','rus','wma','oth']
                     </script>
                 </div>
                 <h1 style="font-family: 'Kanji-kai-2', 'Mulish', -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;margin: 0 auto;text-align: center;font-size: 70px;font-weight: 100;">分类于"<script>document.write(translate[cate-1])</script>"的文章</h1>
@@ -75,48 +76,26 @@
         </div>
         <div class="big-container" id="particles-js">  
             <article class="article">
-                <br>
-                <div style="border-style:dashed;width: 80%;height: auto;padding: 5px 5px 5px 5px;border-width: 3px;border-color: #ff00006d;border-radius: 10px;margin: 0 auto;">
-                    <p style="text-align:center;font-size:15px;font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;color: #ff000090;">WangGuan Sociology</p>
-                </div>
-                <!-- <div style="width: 120px; height:auto;margin: 0 auto;background-color: rgb(255, 113, 113);border-radius: 10px;">
-                    <h3 style="text-align: center;color: #ffffff;">首页</h3>
-                </div> -->
                 <div class="right-holder">
-                    <!--网页介绍-->
+                    <!--投稿须知-->
                     <div class="column-container">
                         <ul class="column_box" id="like-box">
                             <li class="column-title">
-                                <span class="at-sort b-b-ece fl"><a class="at-sort-comment-a c-666 fl" style="font-family: Georgia, 'Times New Roman', Times, serif;">网站介绍</a></span>
-                            </li>
-                            <li class="person-img-li">
-                                <img alt="logo" id="person-img"
-                                    src="../img/user.jpeg">
-                            </li>
-                            <li class="person-intro-detail gradient-text">
-                                <h1>这里是望关</h1>
+                                <span class="at-sort b-b-ece fl"><a class="at-sort-comment-a c-666 fl" style="font-family: Georgia, 'Times New Roman', Times, serif;">投稿须知</a></span>
                             </li>
                             <li class="person-intro-detail">
-                                <h5>
-                                    一个记录学习和思考的社科哲学小站<br>
-                                    现在还在紧张筹备中...<br>
-                                </h5>
-                                <br><h5>Builder：所有参与望关建设的同学们</h5>
+                                <strong>
+                                    1.年龄不限。请在文章结尾投上你的网络昵称&截止日期（不要使用真名）<br>
+                                    2.对马克思主义理论或其他社会科学/哲学理论有较充分的了解。需要有一定的历史了解（像康德理性主义之类的探讨都是可以的）<br>
+                                    3.主题明确，观点犀利，逻辑清晰，可以是分段论，字数不限（一般还是大于1000字），但是内容不要太水。<br>
+                                    4,文本格式可以是：DOC，DOCX，TXT，PDF，PPT<br>
+                                    5.文章结构可以是：<br>
+                                    标题-导言（可写可不写）-正文（可分段分层）-结束语-注释（可写可不写）<br>
+                                    6.当然，写诗也是可以的（文笔优美当然更好）<br>
+                                    7.如果是大于5000字的论文形式，建议转成PDF形式，方便上传。
+                                    8.请将文章的文件格式投稿到邮箱 arbeiterklassen@163.com (不接受其他方式)<br>
+                                </strong>
                             </li>
-                            <li class="person-intro-detail">
-                                <h5>Based on：Github Pages;Go+Vue</h5>
-                            </li>
-                            <!-- <li class="person-intro-detail">
-                                <a href="./inside.index.html">里站[Inside]</a>
-                            </li> -->
-                            <div class="icon-center">
-                                <span class="icon-box"><a id="github-icon" target="_blank" href="https://github.com/arbeiterklassen"class="foot-icon"></a>
-                                </span>
-                                <span class="icon-box"><a id="qq-icon" target="_blank"href="tencent://Message/?Uin=1038171180&amp;websiteName=q-zone.qq.com&amp;Menu=yes"class="foot-icon"></a>
-                                </span>
-                                <span class="icon-box"><a id="bili-icon" target="_blank" href="https://space.bilibili.com/1763105507"class="foot-icon"></a>
-                                </span>
-                            </div>
                         </ul>
                     </div>
                     <div class="column-container" style="width: 100%;float: left;">
@@ -126,25 +105,44 @@
                             </li>
                         </ul>
                     </div>
-                    <!-- 置顶 -->
-                    <div id="article-holder" style="width: 100%; float: left">
-                        <div class="article-box">
-                            <div class="ab-content">
-                                <a href="../articles/000007.html" class="article-img-box">
-                                    <img class="lazy-image article-img" data-src="https://i.postimg.cc/50T0J5fV/philosophy1.jpg" alt="" src="https://i.postimg.cc/50T0J5fV/philosophy1.jpg">
-                                </a>
-                                <div class="article-title">
-                                    <a href="../articles/000007.html">如何哲学地学习哲学</a>
-                                </div>
-                                <div class="article-detail-box c-666"></div>
-                                <span class="article-tail-box">
-                                    <span class="article-date c-999">2023-04-16</span>
-                                    <span class="article-author one-line-overflow c-999">ArbeiterKlassen</span>
-                                </span>
-                            </div>
-                        </div>
+                    <div class="column-container">
+                        <ul class="column_box" id="like-box">
+                            <img src="https://i.imgloc.com/2022/12/17/4m3py.md.jpeg" alt="Thereader" style="width:100%">
+                            <li class="person-intro-detail">
+                                <h2 style="text-align:center">为哲学和哲学之学习精神供以神圣的空间</h2>
+                            </li>
+                            <li class="person-intro-detail">
+                                <h5 style="text-align:center">Bei der Philosophie selbst und beim Lernen geht es nicht nur um Bücher und Wissen, sondern auch um die Möglichkeit der Kommunikation und den Raum für Gemeinschaft.</h5>
+                                <h6 style="text-align:center">哲学本身和学习不仅仅关乎书本和知识，更在于交流和共进之空间的可能性</h6>
+                            </li>
+                            <br>
+                        </ul>
+                    </div>
+                    <div class="column-container">
+                        <ul class="column_box" id="like-box">
+                            <li class="person-intro-detail">
+                                <h5 style="text-align:center">我也不知道这里要写什么但总之是就放点东西吧~</h5>
+                            </li>
+                            <br>
+                        </ul>
                     </div>
                 </div>
+                <div class="left-holder">
+                    <div class="column-container-wider">
+                        <ul class="column_box" id="like-box">
+                            <li class="column-title">
+                                <a class="c-666 fl" style="display: inline;font-size:xx-large;font-family: Kanji-kai-2, 'Mulish', -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;text-decoration: underline;color:#9d9d9d" href="./category.html">全部</a>
+                                <div class="c-666 fl" style="display: inline;font-size:large;font-family: Kanji-kai-2, 'Mulish', -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;color:#666"> / </div>
+                                <div class="c-666 fl" style="display: inline;font-size:xx-large;font-family: Kanji-kai-2, 'Mulish', -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;color:#9d9d9d"><script>document.write(translate[cate-1])</script></div>
+                                <div class="c-666 fl" style="font-size:x-large;font-family: Kanji-kai-2, 'Mulish', -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;color:#666"> 分类</div>
+                            </li>
+                            <br>
+                            <script src="../js/comcode/com_artmenu.js"></script>
+                            <script>
+                                print_category(numcate[cate-1]);
+                            </script>
+                        </ul>
+                    </div>
             </article>
         </div>
         <!--主题-->>
