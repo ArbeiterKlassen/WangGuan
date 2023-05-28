@@ -12,16 +12,16 @@ var artmenu = [
     // {number:,type:"art",class:"",subtype:"normal",links:"../articles/关于深圳中学学生自学驱动力及学习方法的来源的见解.html",time:"2023-1-22",author:"蚌埠黄豆不怕流汗",name:"关于深圳中学学生自学驱动力及学习方法的来源的见解",headpic:"https://i.postimg.cc/ZKYPtGnS/hengshui1.jpg",detail:"被统治阶级往往具有一种愚昧性，但这并不是被统治阶级的错，而是统治阶级在精神上奴役被统治阶级的表现。"},
     // {number:,type:"art",class:"",subtype:"normal",links:"../articles/对文化自信的一点讨论.html",time:"2023-1-12",author:"SW-Eril",name:"对文化自信的一点讨论",headpic:"https://i.postimg.cc/XYzyG40v/captitalism1.jpg",detail:"资产阶级现在所宣传的反动文化所表现的核心行为会造成文化的侵略性和“正确性”。"},
     // {number:,type:"art",class:"",subtype:"normal",links:"../articles/二〇二三-我们这样团结.html",time:"2023-1-11",author:"蚌埠黄豆不怕流汗",name:"二〇二三-我们这样团结",headpic:"https://i.postimg.cc/XYzyG40v/captitalism1.jpg",detail:"同志们，今天我们在水深火热中庆祝将至的兔年春节。"},
-    // {number:,type:"art",class:"",subtype:"normal",links:"../articles/论苏联解体和修正主义.html",time:"2022-12-25",author:"浮生",name:"论苏联解体和修正主义",headpic:"https://i.postimg.cc/J4wndQT3/revisionism1.png",detail:""},
-    // {number:,type:"art",class:"",subtype:"essay",links:"../articles/自由论-警惕自由主义的腐蚀.html",time:"2022-12-25",author:"浮生",name:"自由论-警惕自由主义的腐蚀",headpic:"https://i.postimg.cc/2yW5Sq5B/critic-of-freedom1.png",detail:""},
-    // {number:,type:"art",class:"",subtype:"normal",links:"../articles/中国领导下的人口问题.html",time:"2022-12-25",author:"浮生",name:"中国领导下的人口问题",headpic:"https://i.postimg.cc/J4wndQT3/revisionism1.png",detail:""},
-    {number:6,type:"art",class:"soc",subtype:"normal",links:"../articles/000006.html",time:"2022-12-25",author:"浮生",name:"哲学世界的两大家族",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
+    // {number:,type:"art",class:"",subtype:"normal",links:"../articles/论苏联解体和修正主义.html",time:"2022-12-25",author:"望关内容组",name:"论苏联解体和修正主义",headpic:"https://i.postimg.cc/J4wndQT3/revisionism1.png",detail:""},
+    // {number:,type:"art",class:"",subtype:"essay",links:"../articles/自由论-警惕自由主义的腐蚀.html",time:"2022-12-25",author:"望关内容组",name:"自由论-警惕自由主义的腐蚀",headpic:"https://i.postimg.cc/2yW5Sq5B/critic-of-freedom1.png",detail:""},
+    // {number:,type:"art",class:"",subtype:"normal",links:"../articles/中国领导下的人口问题.html",time:"2022-12-25",author:"望关内容组",name:"中国领导下的人口问题",headpic:"https://i.postimg.cc/J4wndQT3/revisionism1.png",detail:""},
+    {number:6,type:"art",class:"soc",subtype:"normal",links:"../articles/000006.html",time:"2022-12-25",author:"望关内容组",name:"哲学世界的两大家族",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
     // {number:,type:"art",class:"",subtype:"normal",links:"../articles/一线汽修工人采访记录.html",time:"2022-12-25",author:"铃秋",name:"一线汽修工人采访记录",headpic:"https://i.postimg.cc/qvDXKYLX/worker1.jpg",detail:""},
-    {number:5,type:"art",class:"soc",subtype:"normal",links:"../articles/000005.html",time:"2022-12-25",author:"八小时 稻公",name:"家庭和爱情",headpic:"https://i.postimg.cc/FRQcPq8w/marx1.jpg",detail:""},
-    // {number:,type:"art",class:"",subtype:"essay",links:"../articles/集权论-法西斯主义是什么.html",time:"2022-12-25",author:"浮生",name:"集权论-法西斯主义是什么",headpic:"https://i.postimg.cc/vBBgbH9W/anti-Fascism1.jpg",detail:""},
-    // {number:,type:"art",class:"",subtype:"normal",links:"../articles/何去何从-社会主义还是沙文主义.html",time:"2022-12-25",author:"浮生",name:"何去何从-社会主义还是沙文主义",headpic:"https://i.postimg.cc/PfvJ47Mr/jingoism1.png",detail:""},
-    {number:4,type:"art",class:"soc",subtype:"normal",links:"../articles/000004.html",time:"2022-12-25",author:"超级阿伏伽德罗",name:"孤独摇滚",headpic:"https://i.postimg.cc/FRQcPq8w/marx1.jpg",detail:""},
-    // {number:,type:"art",class:"",subtype:"essay",links:"../articles/斗争论-无产阶级的阶级斗争.html",time:"2022-12-25",author:"浮生",name:"斗争论-无产阶级的阶级斗争",headpic:"https://i.postimg.cc/15ptxNTk/kampf1.png",detail:""},
+    {number:5,type:"art",class:"soc",subtype:"normal",links:"../articles/000005.html",time:"2022-12-25",author:"望关内容组",name:"家庭和爱情",headpic:"https://i.postimg.cc/FRQcPq8w/marx1.jpg",detail:""},
+    // {number:,type:"art",class:"",subtype:"essay",links:"../articles/集权论-法西斯主义是什么.html",time:"2022-12-25",author:"望关内容组",name:"集权论-法西斯主义是什么",headpic:"https://i.postimg.cc/vBBgbH9W/anti-Fascism1.jpg",detail:""},
+    // {number:,type:"art",class:"",subtype:"normal",links:"../articles/何去何从-社会主义还是沙文主义.html",time:"2022-12-25",author:"望关内容组",name:"何去何从-社会主义还是沙文主义",headpic:"https://i.postimg.cc/PfvJ47Mr/jingoism1.png",detail:""},
+    {number:4,type:"art",class:"soc",subtype:"normal",links:"../articles/000004.html",time:"2022-12-25",author:"望关内容组",name:"孤独摇滚",headpic:"https://i.postimg.cc/FRQcPq8w/marx1.jpg",detail:""},
+    // {number:,type:"art",class:"",subtype:"essay",links:"../articles/斗争论-无产阶级的阶级斗争.html",time:"2022-12-25",author:"望关内容组",name:"斗争论-无产阶级的阶级斗争",headpic:"https://i.postimg.cc/15ptxNTk/kampf1.png",detail:""},
     // {number:,type:"art",class:"",subtype:"normal",links:"../articles/站稳政治立场，坚定政治信仰.html",time:"2022-11-29",author:"笑笑",name:"站稳政治立场，坚定政治信仰",headpic:"https://i.postimg.cc/fLjd1Chy/mao4.jpg",detail:""},
     // {number:,type:"art",class:"",subtype:"normal",links:"../articles/和我们队伍中的民粹主义者划清界限.html",time:"2022-11-04",author:"苏维埃小九",name:"和我们队伍中的民粹主义者划清界限",headpic:"https://i.postimg.cc/TYHb8hBV/populism1.jpg",detail:""},
     // {number:,type:"art",class:"",subtype:"normal",links:"../articles/对于革命的路线问题的一个论述.html",time:"2022-10-08",author:"苏维埃小九",name:"对于革命的路线问题的一个论述",headpic:"https://i.postimg.cc/x1wbChfq/AnaCom1.jpg",detail:""},
@@ -103,16 +103,16 @@ function print_content(colormode){
         document.write('<li class="person-intro-detail"><span class="date">'+date[1]+'-'+date[2]+' </span><a href="'+artmenu[i].links+'?mode='+colormode+'" class="title">'+artmenu[i].name+'</a></li>');
     }};
 };
-function output(){
+function output(str = 'nullhere'){
     clearcontent('1');
     clearcontent('2');
     clearcontent('3');
-    var str = document.getElementById('inpele').value;
+    if(str == 'nullhere')str = document.getElementById('inpele').value;
     str = str.trim().split(" ");//字符串拆分
     var ifcan = new Array (artmenu.length);
     for(var i = 0;i<artmenu.length;i++)ifcan[i] = true;
     document.getElementById('3').innerHTML += "<br><br>";
-    document.getElementById('3').innerHTML += '<li class="person-intro-detail"><h2 style="text-align:center">搜索结果</h2><hr></li><br>';
+    document.getElementById('3').innerHTML += '<li class="person-intro-detail"><h2 style="text-align:center">"'+str+'" 的搜索结果</h2><hr></li><br>';
     var time = 0;
     if(searchmode == 1)for(var i = 0;i<artmenu.length;i++){
         for(var j = 0;j<str.length;j++){

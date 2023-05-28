@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-cmn-Hans">
+<html>
 <head>
     <script type="text/javascript" src="../js/comcode/com_head.js"></script>
     <title>WGSOC__文件归档</title>
@@ -87,7 +87,7 @@
                 <h3 style="text-align: center;color: #ffffff;">文件归档</h3>
             </div>
             <div class="topsign-title">
-                <h2 class="topsign-text">这里是本站以及各社团和宣传栏组织的文件归档处</h2>
+                <h2 class="topsign-text">这里是本站的文件归档处，兼有tag分类功能</h2>
                 <br>
                 <br>
             </div>
@@ -98,7 +98,7 @@
             </div>
             <div style="text-align:center;">
                 <button onclick="{searchmode = 1;document.getElementById('strict').innerHTML = '<strong style=\'color:rgb(126, 183, 244);\'>严格搜索</strong>';document.getElementById('loose').innerHTML = '<strong style=\'color:black;\'>宽泛搜索</strong>';}" style="cursor: pointer;" type="button" id="strict"><strong style="color:rgb(126, 183, 244);">严格搜索</strong></button>
-                <button onclick="{searchmode = 2;document.getElementById('strict').innerHTML = '<strong style=\'color:black;\'>严格搜索</strong>';document.getElementById('loose').innerHTML = '<strong style=\'color:rgb(126, 183, 244);\'>宽泛搜索</strong>';}" style="cursor: pointer;" type="button" id="loose"><strong>宽泛搜索</strong></button>
+                <button onclick="{searchmode = 2;document.getElementById('strict').innerHTML = '<strong style=\'color:black;\'>严格搜索</strong>';document.getElementById('loose').innerHTML = '<strong style=\'color:rgb(126, 183, 244);\'>宽泛搜索</strong>';}" style="cursor: pointer;" type="button" id="loose" ><strong>宽泛搜索</strong></button>
             </div>
             <details>
                 <summary>搜索模式（默认为严格搜索）</summary>
@@ -157,6 +157,13 @@
             </div>
             <div id = '3'>
             </div>
+            <!-- <script>
+                var insearch;
+                if(getParams("insearch")!=null){
+                    insearch = getParams("insearch");
+                    output(insearch);
+                };
+            </script> -->
         </article>
     </main>
     <!--主题-->>
