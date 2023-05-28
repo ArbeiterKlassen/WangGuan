@@ -87,7 +87,7 @@ function print_category(cate,colormode){
     for(var i = 0; i<=max-1;i++){if(artmenu[i].class==cate){
         date = artmenu[i].time.split("-");
         if(parseInt(date[0])<inity){inity = date[0];document.write('<li class="person-intro-detail" style="font-size:x-large">【'+inity+'】</li>');}
-        document.write('<li class="person-intro-detail"><span class="date" style="font-size:small;color:#666">'+date[1]+'-'+date[2]+'  </span><a href="'+artmenu[i].links+'?mode='+colormode+'" class="title" style="font-size:x-large">'+artmenu[i].name+'</a></li><br>');
+        document.write('<li class="person-intro-detail"><span class="date" style="font-size:small;color:#666">'+date[1]+'-'+date[2]+'  </span><a href="'+artmenu[i].links+'?mode='+colormode+'" class="title" style="font-size:x-large">'+artmenu[i].name+'</a><span class="date" style="font-size:small;color:#666"> By '+artmenu[i].author+'</span></li><br>');
     }};
 }
 function print_content(colormode){
