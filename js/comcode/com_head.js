@@ -25,7 +25,7 @@ if(mode == 1){
     document.write('<link rel="stylesheet" href="../css/link.css">');
     document.write('<link rel="stylesheet" href="../css/about.css">');
     document.write('<link rel="stylesheet" href="../css/font.css">');
-    document.write('<link rel="shortcut icon" href="../img/user.jpeg">');
+    document.write('<link rel="shortcut icon" href="../headpage/icon.png">');
 }
 if(mode == 2){
     document.write('<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">');
@@ -45,5 +45,5 @@ if(mode == 2){
     document.write('<link rel="stylesheet" href="../css/night.link.css">');
     document.write('<link rel="stylesheet" href="../css/night.about.css">');
     document.write('<link rel="stylesheet" href="../css/font.css">');
-    document.write('<link rel="shortcut icon" href="../img/user.jpeg">');
+    document.write('<link rel="shortcut icon" href="../headpage/icon.png">');
 }            
