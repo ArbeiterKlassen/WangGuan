@@ -68,9 +68,9 @@
                             if (r != null) {return unescape(r[2]);}return null;
                         };
                         var cate = -1;
+                        var author = -1;
                         if(getParams("cate") != null)cate = getParams("cate");
-                        var translate = ['当代社会','望关读书会','法兰西哲学','意大利哲学','德意志哲学','古希腊哲学','苏东-俄罗斯哲学','西方马克思主义','其他哲学'];
-                        var numcate = ['soc','wan','fra','ita','deu','gre','rus','wma','oth']
+                        if(getParams("author") != null)author = getParams("author");
                     </script>
                 </div>
                 <h1 style="font-family: 'Kanji-kai-2', 'Mulish', -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;margin: 0 auto;text-align: center;font-size: 70px;font-weight: 100;">分类于"<script>document.write(translate[cate-1])</script>"的文章</h1>
@@ -145,14 +145,14 @@
                             <li class="column-title">
                                 <a class="c-666 fl" style="display: inline;font-size:xx-large;font-family: Kanji-kai-2, 'Mulish', -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;text-decoration: underline;color:#9d9d9d" href="javascript:void(0)" onclick="{window.location.href='./category.html?mode='+mode}">全部</a>
                                 <div class="c-666 fl" style="display: inline;font-size:large;font-family: Kanji-kai-2, 'Mulish', -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;color:#666"> / </div>
-                                <div class="c-666 fl" style="display: inline;font-size:xx-large;font-family: Kanji-kai-2, 'Mulish', -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;color:#9d9d9d"><script>document.write(translate[cate-1])</script></div>
+                                <div class="c-666 fl" style="display: inline;font-size:xx-large;font-family: Kanji-kai-2, 'Mulish', -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;color:#9d9d9d"><script>if(author == -1){document.write(translate[cate-1])}else{document.write(translate[cate-1]+'/'+authorlist[cate-1][author])}</script></div>
                                 <div class="c-666 fl" style="display: inline;font-size:x-large;font-family: Kanji-kai-2, 'Mulish', -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;color:#666"> 分类</div>
                             </li>
                             <br>
                             <br>
                             <script src="../js/comcode/com_artmenu.js"></script>
                             <script>
-                                print_category(numcate[cate-1],mode);
+                                print_category(cate,mode,author);
                             </script>
                         </ul>
                     </div>

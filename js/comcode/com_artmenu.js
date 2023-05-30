@@ -6,7 +6,7 @@ var artmenu = [
     {number:11,type:"art",class:"deu",subtype:"normal",links:"../articles/000011.html",time:"2023-05-28",author:"马尔库塞",name:"马尔库塞：国家资本主义与全职异化劳动",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
     {number:10,type:"art",class:"deu",subtype:"normal",links:"../articles/000010.html",time:"2023-05-28",author:"马尔库塞",name:"马尔库塞：论科学和现象学",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
     {number:9,type:"art",class:"deu",subtype:"normal",links:"../articles/000009.html",time:"2023-05-27",author:"马尔库塞",name:"马尔库塞：论思想现如今的处境",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
-    {number:8,type:"art",class:"deu",subtype:"normal",links:"../articles/000008.html",time:"2023-05-27",author:"Alexandre Chirat",name:"Alexandre Chirat:尼采和工作：我们时代的“恶”",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
+    {number:8,type:"art",class:"deu",subtype:"normal",links:"../articles/000008.html",time:"2023-05-27",author:"AlexandreChirat",name:"Alexandre Chirat:尼采和工作：我们时代的“恶”",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
     {number:7,type:"art",class:"wan",subtype:"normal",links:"../articles/000007.html",time:"2023-04-16",author:"ArbeiterKlassen",name:"如何哲学地学习哲学",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
     // {number:,type:"art",class:"",subtype:"essay",links:"../essays/论哲学归宿，保卫哲学和继续实践.pdf",time:"2023-1-24",author:"ArbeiterKlassen",name:"论哲学归宿，保卫哲学和继续实践",headpic:"https://i.postimg.cc/FRQcPq8w/marx1.jpg",detail:"历史政治经济运动和其反映出的社会运动不仅仅要反过来反映其时代思想，还要反过来指向政治经济和社会文化各个层面的社会矛盾。那么，研究历史逻辑的过程必须形成对社会矛盾的认识，而得到这些认识——就自发地将它们应用到现代社会政治经济的矛盾分析中。这个过程——认识和分析世界的过程是哲学的发端及其归宿。"},
     // {number:,type:"art",class:"",subtype:"normal",links:"../articles/关于深圳中学学生自学驱动力及学习方法的来源的见解.html",time:"2023-1-22",author:"蚌埠黄豆不怕流汗",name:"关于深圳中学学生自学驱动力及学习方法的来源的见解",headpic:"https://i.postimg.cc/ZKYPtGnS/hengshui1.jpg",detail:"被统治阶级往往具有一种愚昧性，但这并不是被统治阶级的错，而是统治阶级在精神上奴役被统治阶级的表现。"},
@@ -26,7 +26,7 @@ var artmenu = [
     // {number:,type:"art",class:"",subtype:"normal",links:"../articles/和我们队伍中的民粹主义者划清界限.html",time:"2022-11-04",author:"苏维埃小九",name:"和我们队伍中的民粹主义者划清界限",headpic:"https://i.postimg.cc/TYHb8hBV/populism1.jpg",detail:""},
     // {number:,type:"art",class:"",subtype:"normal",links:"../articles/对于革命的路线问题的一个论述.html",time:"2022-10-08",author:"苏维埃小九",name:"对于革命的路线问题的一个论述",headpic:"https://i.postimg.cc/x1wbChfq/AnaCom1.jpg",detail:""},
     // {number:,type:"art",class:"",subtype:"normal",links:"../articles/【小说】九篇小说.html",time:"2022-01-31",author:"奇才",name:"【小说】九篇小说",headpic:"https://i.postimg.cc/RZywtqRS/anti-Revision1.jpg",detail:""},
-    {number:3,type:"art",class:"rus",subtype:"normal",links:"../articles/000003.html",time:"2022-01-22",author:"阿兰-彭加姆",name:"阿兰-彭加姆:无政府主义共产主义者",headpic:"https://i.postimg.cc/x1wbChfq/AnaCom1.jpg",detail:""},
+    {number:3,type:"art",class:"wma",subtype:"normal",links:"../articles/000003.html",time:"2022-01-22",author:"阿兰-彭加姆",name:"阿兰-彭加姆:无政府主义共产主义者",headpic:"https://i.postimg.cc/x1wbChfq/AnaCom1.jpg",detail:""},
     // {number:,type:"art",class:"",subtype:"normal",links:"../articles/中共（修）研究.html",time:"2022-01-22",author:"奇才",name:"中共（修）研究",headpic:"https://i.postimg.cc/RZywtqRS/anti-Revision1.jpg",detail:""},
     // {number:,type:"art",class:"",subtype:"normal",links:"../articles/【转载】请看苏修的新玩意儿.html",time:"2022-01-21",author:"《红旗》",name:"【转载】请看苏修的新玩意儿",headpic:"https://i.postimg.cc/43cVQZLz/mao3.jpg",detail:""},
     // {number:,type:"art",class:"",subtype:"normal",links:"../articles/太阳照常升起.html",time:"2021-09-09",author:"ArbeiterKlassen",name:"太阳照常升起",headpic:"https://i.postimg.cc/43cVQZLz/mao3.jpg",detail:""},
@@ -58,6 +58,19 @@ var artmenu = [
     {type:"arc",subtype:"normal",links:"./archive.html",time:"2022-09-30",author:"未知",name:"文件备案 历史资料 千禧年后社会调研分析报告[PDF]",headpic:"",detail:""},
 //{links,time,author,name},
 ]
+var translate = ['当代社会','望关读书会','法兰西哲学','意大利哲学','德意志哲学','古希腊哲学','苏东-俄罗斯哲学','西方马克思主义','其他哲学'];
+var numcate = ['soc','wan','fra','ita','deu','gre','rus','wma','oth'];
+var authorlist = [
+    ['望关内容组','ArbeiterKlassen','Faschiung'],
+    ['望关内容组','ArbeiterKlassen'],
+    [],
+    [],
+    ['朱利安·杨','马尔库塞','AlexandreChirat'],
+    [],
+    [],
+    ["阿兰-彭加姆"],
+    [],
+];
 var eachpage = 10;
 var max = artmenu.length;
 var count = 0;
@@ -65,6 +78,12 @@ for(var i = 0; i<max;i++){if(artmenu[i].type=='art'){count+=1}};
 var pages = (count - count%eachpage)/eachpage + 1;
 var initpage = 1;
 var x;
+function print_authorlist(cate,colormode){
+var max = authorlist[cate-1].length
+    for(var i = 0; i<=max-1;i++){
+        document.write('<div style="width: 48%;height:35px;margin: 0 auto;display:inline-block;text-align:center"><a style="color: rgb(237,118,137,1);font-size: large;" href="./categories.html?cate='+cate+'&mode='+mode+'&author='+i+'">'+authorlist[cate-1][i]+'</a></div>');
+    };
+}
 function print_page(pagename,colormode){
     if(pagename == pages){x = count%eachpage+(pagename-1)*eachpage}
     else{x = 10 + (pagename-1)*eachpage};
@@ -79,16 +98,28 @@ var searchmode = 1;
 function clearcontent(elementID) {
     document.getElementById(elementID).innerHTML = "";
 };
-function print_category(cate,colormode){
+function print_category(cate,colormode,authornum){
     var max = artmenu.length;
     var date;
     date = artmenu[0].time.split("-");
     var inity = date[0] + 1;
-    for(var i = 0; i<=max-1;i++){if(artmenu[i].class==cate){
-        date = artmenu[i].time.split("-");
-        if(parseInt(date[0])<inity){inity = date[0];document.write('<li class="person-intro-detail" style="font-size:x-large">【'+inity+'】</li>');}
-        document.write('<li class="person-intro-detail"><span class="date" style="font-size:small;color:#666">'+date[1]+'-'+date[2]+'  </span><a href="'+artmenu[i].links+'?mode='+colormode+'" class="title" style="font-size:x-large">'+artmenu[i].name+'</a><span class="date" style="font-size:small;color:#666"> By '+artmenu[i].author+'</span></li><br>');
-    }};
+    if(authornum == -1){
+        for(var i = 0; i<=max-1;i++){
+            if(artmenu[i].class==numcate[cate-1]){
+                date = artmenu[i].time.split("-");
+                if(parseInt(date[0])<inity){inity = date[0];document.write('<li class="person-intro-detail" style="font-size:x-large">【'+inity+'】</li>');}
+                document.write('<li class="person-intro-detail"><span class="date" style="font-size:small;color:#666">'+date[1]+'-'+date[2]+'  </span><a href="'+artmenu[i].links+'?mode='+colormode+'" class="title" style="font-size:x-large">'+artmenu[i].name+'</a><span class="date" style="font-size:small;color:#666"> By '+artmenu[i].author+'</span></li><br>');
+            }
+        }
+    }else{
+        for(var i = 0; i<=max-1;i++){
+            if(artmenu[i].class==numcate[cate-1] && artmenu[i].author == authorlist[cate-1][authornum]){
+                date = artmenu[i].time.split("-");
+                if(parseInt(date[0])<inity){inity = date[0];document.write('<li class="person-intro-detail" style="font-size:x-large">【'+inity+'】</li>');}
+                document.write('<li class="person-intro-detail"><span class="date" style="font-size:small;color:#666">'+date[1]+'-'+date[2]+'  </span><a href="'+artmenu[i].links+'?mode='+colormode+'" class="title" style="font-size:x-large">'+artmenu[i].name+'</a><span class="date" style="font-size:small;color:#666"> By '+artmenu[i].author+'</span></li><br>');
+            }
+        }
+    }
 }
 function print_content(colormode){
     document.write('<li class="column-title">')
@@ -103,11 +134,11 @@ function print_content(colormode){
         document.write('<li class="person-intro-detail"><span class="date">'+date[1]+'-'+date[2]+' </span><a href="'+artmenu[i].links+'?mode='+colormode+'" class="title">'+artmenu[i].name+'</a></li>');
     }};
 };
-function output(str = 'nullhere'){
+function output(){
     clearcontent('1');
     clearcontent('2');
     clearcontent('3');
-    if(str == 'nullhere')str = document.getElementById('inpele').value;
+    var str = document.getElementById('inpele').value;
     str = str.trim().split(" ");//字符串拆分
     var ifcan = new Array (artmenu.length);
     for(var i = 0;i<artmenu.length;i++)ifcan[i] = true;

@@ -401,6 +401,53 @@ footer {
     margin-top: 1em;
 }
 
+#entrance h1{
+    margin-top: .7em;
+    font-size: 2em;
+}
+
+#entrance p{
+    margin-top: 1em;
+}
+
+#entrance .items {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#entrance .items a {
+    color: rgba(0, 0, 0, 0.8);
+    ;
+    width: 33.333%;
+    padding: .5em 0;
+    border-radius: 1em;
+    display: inline-block;
+    transition: transform .3s;
+}
+
+#entrance .items a i {
+    display: block;
+    font-size: 3em;
+    margin-top: 1em;
+}
+
+#entrance .items a span {
+    display: block;
+    margin-top: 1em;
+    transition: all 0.5s;
+}
+
+#entrance .items a:hover span {
+    color: #ff7d7f;
+}
+
+#entrance .items a i:hover {
+    animation: tada 1.5s ease-in-out;
+}
+
 #archives h1 {
     margin-top: 1em;
     font-size: 2em;
@@ -577,6 +624,28 @@ footer #hitokoto {
     }
     #home p {
         margin: 1em;
+    }
+
+    #entrance h1{
+        margin-top: .2em;
+        font-size: 1.5em;
+    }
+    
+    #entrance p{
+        margin: 1em;
+    }
+    #entrance .items {
+        margin-top: 1em;
+    }
+    #entrance .items a {
+        padding: .3em 0;
+    }
+    #entrance .items a i {
+        font-size: 2em;
+        margin-top: .2em;
+    }
+    #entrance .items a span {
+        margin-top: 1em;
     }
     #archives h1 {
         margin-top: .2em;
