@@ -1,4 +1,5 @@
 var artmenu = [
+    {number:15,type:"art",class:"deu",subtype:"normal",links:"../articles/000016.html",time:"2023-05-29",author:"胡塞尔",name:"胡塞尔：现象学的四条原理",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
     {number:15,type:"art",class:"deu",subtype:"normal",links:"../articles/000015.html",time:"2023-05-28",author:"朱利安·杨",name:"朱利安·杨：什么是四合？",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
     {number:14,type:"art",class:"deu",subtype:"normal",links:"../articles/000014.html",time:"2023-05-28",author:"马尔库塞",name:"马尔库塞：爱欲、恐怖、青年人与精神疗法（三）",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
     {number:13,type:"art",class:"deu",subtype:"normal",links:"../articles/000013.html",time:"2023-05-28",author:"马尔库塞",name:"马尔库塞：爱欲、恐怖、青年人与精神疗法（二）",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
@@ -65,7 +66,7 @@ var authorlist = [
     ['望关内容组','ArbeiterKlassen'],
     [],
     [],
-    ['朱利安·杨','马尔库塞','AlexandreChirat'],
+    ['朱利安·杨','马尔库塞','AlexandreChirat','胡塞尔'],
     [],
     [],
     ["阿兰-彭加姆"],
