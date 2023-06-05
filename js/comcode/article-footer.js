@@ -34,6 +34,8 @@ document.write('    <script type="text/javascript" src="../js/myPagination.js"><
 document.write('    <script type="text/javascript" src="../js/vditor.min.js"></script>')
 document.write('    <script type="text/javascript" src="../js/article-detail.js"></script>')
 document.write('    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>')
+document.write('    <script src="https://cdn.staticfile.org/layer/3.1.1/layer.js"></script>')
+document.write('    <script>document.body.oncopy = function() {layer.msg("复制成功,若要转载请务必保留原文链接<br>并遵守 (CC)-BY-NC-SA 协议");};</script>')
 document.write('    <script type="text/x-mathjax-config">')
 document.write('    MathJax.Hub.Config({')
 document.write('        showProcessingMessages: false, //关闭js加载过程信息')
