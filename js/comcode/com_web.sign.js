@@ -5,13 +5,6 @@ document.write('             <span class="at-sort b-b-ece fl"><a class="at-sort-
 document.write('         </li>')
 
 
-document.write(' <div class="sign-container">')
-document.write('     <ul class="column_box" id="like-box">')
-document.write('         <li class="column-title">')
-document.write('             <span class="at-sort b-b-ece fl"><a class="at-sort-comment-a c-666 fl" style="font-size:x-large;font-family: Georgia, Times New Roman, Times, serif;">Lastest</a></span>')
-document.write('         </li>')
-
-
 document.write('         <li class="person-intro-detail gradient-text">')
 document.write('             <h2>2023-4-16</h2>')
 document.write('         </li>')
@@ -27,7 +20,6 @@ document.write('             <h3>6. 于2023年5月开始，正式重启望关项
 document.write('             <h3>7. 于2023年5月开始，域名将更换为：<a href="https://www.wangguan.soc">WWW.WANGGUAN.SOC</a><br></h3>')
 document.write('             <h3>8. 为防止非法境外势力干预，计划开发网站初次进入审核机制，暂定为答题版<br></h3>')
 document.write('             <br>')
-document.write('             <h3>唉<br></h3>')
 document.write('             <h3>技术修复：<br></h3>')
 document.write('             <h3>···计划开发夜晚模式<br></h3>')
 document.write('             <h3>···计划建立望关网站运营组，负责网站运维和文章上传，同时避免再次出现涉及敏感字眼问题<br></h3>')
@@ -35,8 +27,6 @@ document.write('             <h3>···添加了新的欢迎页面<br></h3>')
 document.write('         </li>')
 
 
-document.write('     </ul>')
-document.write(' </div>')
 document.write('         <li class="person-intro-detail gradient-text">')
 document.write('             <h2>2022-12-4</h2>')
 document.write('         </li>')
