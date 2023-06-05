@@ -467,7 +467,7 @@
 
 /*}*/
 
-.card {
+.col-1-of-3 .card {
     -webkit-perspective: 150rem;
     perspective: 150rem;
     -moz-perspective: 150rem;
@@ -539,7 +539,8 @@
 }
 
 .col-1-of-3 {
-    width: calc((100%-4rem)/2);
+    width: 47%;
+    padding-right: 5px;
 }
 
 @media screen and (max-width: 1200px) {
