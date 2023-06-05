@@ -80,6 +80,23 @@ for(var i = 0; i<max;i++){if(artmenu[i].type=='art'){count+=1}};
 var pages = (count - count%eachpage)/eachpage + 1;
 var initpage = 1;
 var x;
+function count_tags(type){
+    if(type=='categories')return translate.length;
+    if(type=='articles'){
+        var _ret = 0;
+        for(var i = 0;i<max;i++){
+            if(artmenu[i].type =='art')_ret+=1;
+        }
+        return _ret;
+    }
+    if(type=='authors'){
+        var _ret = 0;
+        for(var i = 0;i<authorlist.length;i++){
+            _ret+=authorlist[i].length;
+        }
+        return _ret;
+    }
+}
 function print_authorlist(cate,colormode){
 var max = authorlist[cate-1].length
     for(var i = 0; i<=max-1;i++){
