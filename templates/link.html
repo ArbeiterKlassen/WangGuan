@@ -175,15 +175,86 @@
                 </div>
             </ul>
             <ul class="link-box">
-                <span style="text-align: center;display: block;font-size:large;">友情链接</span>
-                <li>
+                <style>
+                    .link-box .link-card{
+                        width: 32%;
+                        height:auto;
+                        display: inline-block;
+                    }
+                    .link-box .link-card li a{
+                        font-family: Georgia, 'Times New Roman', Times, serif;
+                        font-style: oblique;
+                    }
+                    @media screen and (max-width: 1200px) {
+                        .link-box .link-card{
+                        width: 100%;
+                        height:auto;
+                        display: inline-block;
+                    }
+                    }
+                </style>
+                <span style="text-align: center;display: block;font-size:large;">Links</span>
+                <script>
+                    var linklist = [
+                        {name:'福柯研究资讯',link:'https://foucault.info/',description:''},
+                        {name:'福柯相关资源',link:'https://michel-foucault.com/',description:''},
+                        {name:'德勒兹研讨班',link:'https://deleuze.cla.purdue.edu/',description:''},
+                        {name:'德勒兹研讨班 CHver',link:'https://www.deleuzecn.com/',description:''},
+                        {name:'德里达研讨班 CHver',link:'https://derridaseminars.org/',description:''},
+                        {name:'今日德里达',link:'https://derridatoday.com.au/',description:''},
+                        {name:'列维纳斯文献汇总',link:'https://levinas.sdsu.edu/',description:''},
+                        {name:'德里达参考文献',link:'https://derridas-margins.princeton.edu/',description:''},
+                        {name:'海德格尔学会',link:'https://www.heidegger-gesellschaft.de/en/',description:''},
+                        {name:'国际梅洛-庞蒂圈子',link:'https://www.merleauponty.org/',description:''},
+                        {name:'日本海德格尔学会',link:'https://heidegger.exblog.jp/',description:''},
+                        {name:'海德格尔圈子',link:'https://heidegger-circle.org/',description:''},
+                        {name:'海德格尔资源',link:'https://www.beyng.com/',description:''},
+                        {name:'',link:'',description:''},
+                        {name:'',link:'',description:''},
+                        {name:'',link:'',description:''},
+                        {name:'',link:'',description:''},
+                        {name:'',link:'',description:''},
+                        {name:'',link:'',description:''},
+                        {name:'',link:'',description:''},
+                        {name:'',link:'',description:''},
+                        {name:'',link:'',description:''},
+                        {name:'',link:'',description:''},
+                        {name:'',link:'',description:''},
+                        {name:'',link:'',description:''},
+                        {name:'',link:'',description:''},
+                        {name:'',link:'',description:''},
+                        {name:'',link:'',description:''},
+                    ]
+                    for(var i = 0;i<linklist.length;i++){
+                        document.write('<div class="link-card"><li><span class="description">'+linklist[i].name+'</span><a href="'+linklist[i].link+'">'+linklist[i].link+'</a></li></div>');
+                    }
+                </script>
+                <!-- <div class="link-card">
+                    <li>
+                        <a href="https://www.marxists.org">MAXRISTS.ORG 马克思主义文库</a>
+                        <span class="description">旨在传播马克思主义和共产主义历史文献和参考资料<br>拥有最全的马克思主义文献整理<br>
+                            “我们现在收集的文献有38种语言，包括阿拉伯语、乌尔都语、越南语等等，总共2500兆的数据中有1500兆都是英语的，其他语言的文献很少。>这些作品的作者总共有430人，他们中间有103个人的作品几乎都是英文。英文文献的大部头作品有列宁的3900篇，马恩的3260篇，托洛茨基的1264篇。”<br>
+                        </span>
+                        <span class="description">————Andy Blunden,marxists.org 创始人</span>
+                    </li>
+                </div>
+                <div class="link-card">
+                    <li>
+                        <a href="https://www.marxists.org">MAXRISTS.ORG 马克思主义文库</a>
+                        <span class="description">旨在传播马克思主义和共产主义历史文献和参考资料<br>拥有最全的马克思主义文献整理<br>
+                            “我们现在收集的文献有38种语言，包括阿拉伯语、乌尔都语、越南语等等，总共2500兆的数据中有1500兆都是英语的，其他语言的文献很少。>这些作品的作者总共有430人，他们中间有103个人的作品几乎都是英文。英文文献的大部头作品有列宁的3900篇，马恩的3260篇，托洛茨基的1264篇。”<br>
+                        </span>
+                        <span class="description">————Andy Blunden,marxists.org 创始人</span>
+                    </li>
+                </div> -->
+                <!-- <li>
                     <a href="https://www.marxists.org">MAXRISTS.ORG 马克思主义文库</a>
                     <span class="description">旨在传播马克思主义和共产主义历史文献和参考资料<br>拥有最全的马克思主义文献整理<br>
                         “我们现在收集的文献有38种语言，包括阿拉伯语、乌尔都语、越南语等等，总共2500兆的数据中有1500兆都是英语的，其他语言的文献很少。>这些作品的作者总共有430人，他们中间有103个人的作品几乎都是英文。英文文献的大部头作品有列宁的3900篇，马恩的3260篇，托洛茨基的1264篇。”<br>
                     </span>
                     <span class="description">————Andy Blunden,marxists.org 创始人</span>
-                </li>
-                <li>
+                </li> -->
+                <!-- <li>
                     <a href="https://www.marxists.org">MAXRISTS.ORG CHver 中文马克思主义文库</a>
                     <span class="description">马克思主义文库中国分站<br>拥有最全的马克思主义文献整理，<br>
                         “互联网可以使社会主义者可以和那些由于地理或资金的原因而无法接触到社会主义文献的人们或组织建立起联系。<br>
@@ -197,17 +268,7 @@
                     <h3>未明子</h3>
                     <a href="https://space.bilibili.com/23191782" target="_blank">B站</a>
                     <span class="description">哲学学者，B站UP，讲解深刻</span>
-                </li>
-                <li>
-                    <h3>卢麒元</h3>
-                    <a href="https://space.bilibili.com/1446926098" target="_blank">B站</a>
-                    <span class="description">全球大学堂-麒元视角栏目主讲人，主攻国际政治经济学</span>
-                </li>
-                <li>
-                    <h3>温铁军（国仁全球大学堂）</h3>
-                    <a href="https://space.bilibili.com/679619486" target="_blank">B站</a>
-                    <span class="description">包含温铁军，戴锦华，卢麒元等诸位讲师。涉及方面较广</span>
-                </li>
+                </li> -->
             </ul>
         </article>
     </div>
