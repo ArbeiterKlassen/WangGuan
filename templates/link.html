@@ -177,7 +177,7 @@
             <ul class="link-box">
                 <style>
                     .link-box .link-card{
-                        width: 32%;
+                        width: 48%;
                         height:auto;
                         display: inline-block;
                     }
@@ -196,37 +196,55 @@
                 <span style="text-align: center;display: block;font-size:large;">Links</span>
                 <script>
                     var linklist = [
-                        {name:'福柯研究资讯',link:'https://foucault.info/',description:''},
-                        {name:'福柯相关资源',link:'https://michel-foucault.com/',description:''},
-                        {name:'德勒兹研讨班',link:'https://deleuze.cla.purdue.edu/',description:''},
-                        {name:'德勒兹研讨班 CHver',link:'https://www.deleuzecn.com/',description:''},
-                        {name:'德里达研讨班 CHver',link:'https://derridaseminars.org/',description:''},
-                        {name:'今日德里达',link:'https://derridatoday.com.au/',description:''},
-                        {name:'列维纳斯文献汇总',link:'https://levinas.sdsu.edu/',description:''},
-                        {name:'德里达参考文献',link:'https://derridas-margins.princeton.edu/',description:''},
-                        {name:'海德格尔学会',link:'https://www.heidegger-gesellschaft.de/en/',description:''},
-                        {name:'国际梅洛-庞蒂圈子',link:'https://www.merleauponty.org/',description:''},
-                        {name:'日本海德格尔学会',link:'https://heidegger.exblog.jp/',description:''},
-                        {name:'海德格尔圈子',link:'https://heidegger-circle.org/',description:''},
-                        {name:'海德格尔资源',link:'https://www.beyng.com/',description:''},
-                        {name:'',link:'',description:''},
-                        {name:'',link:'',description:''},
-                        {name:'',link:'',description:''},
-                        {name:'',link:'',description:''},
-                        {name:'',link:'',description:''},
-                        {name:'',link:'',description:''},
-                        {name:'',link:'',description:''},
-                        {name:'',link:'',description:''},
-                        {name:'',link:'',description:''},
-                        {name:'',link:'',description:''},
-                        {name:'',link:'',description:''},
-                        {name:'',link:'',description:''},
-                        {name:'',link:'',description:''},
-                        {name:'',link:'',description:''},
-                        {name:'',link:'',description:''},
+                        {name:'马克思主义文库',link:'https://www.marxists.org',description:''},
+                        {name:'中文马克思主义文库',link:'https://www.marxists.org/chinese/index.html',description:''},
+                        {name:'文献/福柯研究资讯',link:'https://foucault.info/',description:''},
+                        {name:'文献/福柯相关资源',link:'https://michel-foucault.com/',description:''},
+                        {name:'文献/德勒兹研讨班',link:'https://deleuze.cla.purdue.edu/',description:''},
+                        {name:'文献/德勒兹研讨班 CHver',link:'https://www.deleuzecn.com/',description:''},
+                        {name:'文献/德里达研讨班 CHver',link:'https://derridaseminars.org/',description:''},
+                        {name:'文献/今日德里达',link:'https://derridatoday.com.au/',description:''},
+                        {name:'文献/列维纳斯文献汇总',link:'https://levinas.sdsu.edu/',description:''},
+                        {name:'文献/德里达参考文献',link:'https://derridas-margins.princeton.edu/',description:''},
+                        {name:'文献/海德格尔学会',link:'https://www.heidegger-gesellschaft.de/en/',description:''},
+                        {name:'文献/国际梅洛-庞蒂圈子',link:'https://www.merleauponty.org/',description:''},
+                        {name:'文献/日本海德格尔学会',link:'https://heidegger.exblog.jp/',description:''},
+                        {name:'文献/海德格尔圈子',link:'https://heidegger-circle.org/',description:''},
+                        {name:'文献/海德格尔资源',link:'https://www.beyng.com/',description:''},
+                        {name:'文献/海德格尔当代研究',link:'https://heidegger-circle.org/',description:''},
+                        {name:'文献/胡塞尔-鲁汶档案馆',link:'http://www.husserlpage.com/',description:''},
+                        {name:'文献/胡塞尔-弗赖堡档案馆',link:'http://www.husserlarchiv.de/',description:''},
+                        {name:'文献/胡塞尔-科隆档案馆',link:'https://husserl.phil-fak.uni-koeln.de/',description:''},
+                        {name:'文献/胡塞尔-巴黎高师档案馆',link:'http://www.umr8547.ens.fr/?lang=fr',description:''},
+                        {name:'文献/德尔图良文献翻译',link:'https://www.tertullian.org/',description:''},
+                        {name:'文献/数字康德中心',link:'https://nachrichten.idw-online.de/2022/09/07/millionenfoerderung-fuer-digitales-kant-zentrum-nrw',description:''},
+                        {name:'文献/古典主义者',link:'http://stephanus.tlg.uci.edu/index/resources.html',description:''},
+                        {name:'文献/异种女权主义',link:'https://laboriacuboniks.net/',description:''},
+                        {name:'文献/全国图书馆参考咨询联盟',link:'http://www.ucdrs.superlib.net/',description:''},
+                        {name:'文献/台湾大学图书馆',link:'http://ntu.primo.exlibrisgroup.com/',description:''},
+                        {name:'文献/明尼苏达大学图书馆',link:'https://open.umn.edu/',description:''},
+                        {name:'文献/宾夕法尼亚大学图书馆',link:'http://digital.library.upenn.edu/books',description:''},
+                        {name:'文献/在世哲学家文库',link:'https://cola.siu.edu/philosophy/llp/volumes/index.php',description:''},
+                        {name:'文献/哲学图书馆',link:'http://palimpsestes.fr/index.html',description:''},
+                        {name:'文献/Gutenberg Project',link:'https://gutenberg.unblockit.bet/',description:''},
+                        {name:'文献/国家紧急图书馆',link:'https://archive.org/',description:''},
+                        {name:'百科/斯坦福哲学百科',link:'https://plato.stanford.edu/',description:''},
+                        {name:'百科/劳特里奇哲学百科',link:'https://www.rep.routledge.com/',description:''},
+                        {name:'百科/互联网哲学百科',link:'https://iep.utm.edu/',description:''},
+                        {name:'语言/西班牙语词典',link:'https://spanishetymology.com/',description:''},
+                        {name:'语言/法语词典',link:'https://www.lexilogos.com/index.htm',description:''},
+                        {name:'语言/法语电子书',link:'http://www.leboucher.com/vous/base/faq_gen1.html',description:''},
+                        {name:'语言/注册词典',link:'https://nodictionaries.com/populus/novifacta-quotidiana/2022-08-03',description:''},
+                        {name:'语言/希腊和拉丁语语言',link:'https://www.lexilogos.com/index.htm',description:''},
+                        {name:'语言/古希腊语言词典',link:'https://www.lexilogos.com/clavier/ellenike.htm',description:''},
+                        {name:'语言/古法语文献',link:'https://gallica.bnf.fr/',description:''}
                     ]
                     for(var i = 0;i<linklist.length;i++){
-                        document.write('<div class="link-card"><li><span class="description">'+linklist[i].name+'</span><a href="'+linklist[i].link+'">'+linklist[i].link+'</a></li></div>');
+                        if(linklist[i].name != 'dot' ){
+                            document.write('<div class="link-card"><li><span class="description">'+linklist[i].name+'</span><a href="'+linklist[i].link+'">'+linklist[i].link+'</a></li></div>');
+                        }else{
+                            document.write('<li><span class="about_line">'+linklist[i].description+'</span></li>');
+                        }
                     }
                 </script>
                 <!-- <div class="link-card">
