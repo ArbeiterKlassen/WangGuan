@@ -10,6 +10,12 @@ function getParams(key) {
 };
 var mode = 1;
 if(getParams("mode") != null){mode = getParams("mode")};
+
+document.write('<!-- 悬挂的喵 -->')
+document.write('<script type="text/javascript" src="../js/hangingcat/hangingcat.js" defer=""></script>')
+document.write('<link rel="stylesheet" type="text/css" href="../css/hangingcat/hangingcat.css">')
+document.write('<div class="back-to-top cd-top faa-float animated cd-is-visible" style="top: -300px;z-index: 999;"></div>')
+
 if(mode==1){
     document.write('<!--PC导航栏-->')
     document.write('<nav class="nav-bar-holder" style="background-color:#303643">')
@@ -36,7 +42,7 @@ if(mode==1){
     // document.write('            <img style="vertical-align: top;" alt="logo" src="../img/user.jpeg">')
     document.write('        </a>')
     document.write('    </div>')
-    document.write('    <a id="mobile_cate" alt="null" href="javascript:void(0);"><img style="width:35px" alt="moblie-nav" src="../img/cate.jpeg"></a>')
+    document.write('    <a id="mobile_cate" alt="null" href="javascript:void(0);"><div style="padding:5px 5px 5px 5px;background-color:white;border-radius:25px"><img style="width:35px" alt="moblie-nav" src="../img/cate.svg" color:azure></div></a>')
     document.write('</nav>')
     document.write('<ul id="nav-m-list">')
     document.write('    <li id="cancel-li"><a class="fr" id="cancel" href="javascript:void(0);"></a></li>')
@@ -78,7 +84,7 @@ if(mode==2){
     // document.write('            <img style="vertical-align: top;" alt="logo" src="../img/user.jpeg">')
     document.write('        </a>')
     document.write('    </div>')
-    document.write('    <a id="mobile_cate" alt="null" href="javascript:void(0);"><img style="width:35px" alt="moblie-nav" src="../img/cate.jpeg"></a>')
+    document.write('    <a id="mobile_cate" alt="null" href="javascript:void(0);"><div style="padding:5px 5px 5px 5px;background-color:white;border-radius:25px"><img style="width:35px" alt="moblie-nav" src="../img/cate.svg" color:azure></div></a>')
     document.write('</nav>')
     document.write('<ul id="nav-m-list">')
     document.write('    <li id="cancel-li"><a class="fr" id="cancel" href="javascript:void(0);"></a></li>')
