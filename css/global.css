@@ -549,11 +549,11 @@ pre {
 
     #mobile_cate {
         position:fixed;
-        left:10px;
-        top:20px;
+        right:10px;
+        bottom:31px;
         z-index: 100;
-        height: 30px;
-        width: 30px;
+        height: 40px;
+        width: 48px;
         float: right;
         margin: 10px 2%;
         background-size: 100% 100%;
