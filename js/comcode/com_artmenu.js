@@ -97,16 +97,19 @@ function questionaire(code){
         <h3 class="about_line" style="text-align: center;">10 Fragen ausgefüllt</h3>
         <h3 class="about_line" style="text-align: center;">10 questions completed</h3>
         <br>
-        <h3 class="about_line" style="text-align: center;">根据您的知识水平，您获得了</h3>
-        <script>document.write(localStorage.getItem('wgsoc-questionaire-mark'))</script>
+        <h3 class="about_line" style="text-align: center;">根据您的知识水平，您获得了
+        `+localStorage.getItem('wgsoc-questionaire-mark')+` 分</h3>
         <br>
-        <script>localStorage.setItem('wgsoc-admission',0000000001)</script>
         <li>
             <script src="../js/comcode/com_artmenu.js"></script>
-            <div style="background-color: rgb(4, 201, 4);border-radius: 10px;width: 200px;height: 30px;margin: 0 auto;text-align: center;font-size: 20px;padding: 2px 2px 2px 2px; color: azure;"><a href="javascript:void(0)" onclick="questionaire(0);">接受测试!</a></div>
+            <div style="background-color: rgb(4, 201, 4);border-radius: 10px;width: 200px;height: 30px;margin: 0 auto;text-align: center;font-size: 20px;padding: 2px 2px 2px 2px; color: azure;"><a href="javascript:void(0)" onclick="questionaire(0);">再次测试!</a></div>
             <br>
             <div style="background-color: rgb(255, 34, 34);border-radius: 10px;width: 200px;height: 30px;margin: 0 auto;text-align: center;font-size: 20px;padding: 2px 2px 2px 2px; color: azure;"><a href="../templates/index.html">还是返回首页吧</a></div>
         </li>`
+        if(parseInt(localStorage.getItem('wgsoc-questionaire-mark'))>90)localStorage.setItem('wgsoc-admission','0000000001')
+        document.getElementById('changingpage').innerHTML +=`
+        <div style="background-color: rgb(4, 201, 4);border-radius: 10px;width: 200px;height: 30px;margin: 0 auto;text-align: center;font-size: 20px;padding: 2px 2px 2px 2px; color: azure;"><a href="./index.html">获得浏览资格!</a></div>
+        `
         return;
     }//超限
     document.getElementById('changingpage').innerHTML = `

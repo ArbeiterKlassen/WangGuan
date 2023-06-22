@@ -16,6 +16,10 @@
     <script>
         if(!hasadmission()){
             window.location.href = './back.html'
+        }else{
+            if(localStorage.getItem('wgsoc-admission') != '0000000001'){
+                window.location.href = './back.html'
+            }
         }
     </script>
 
