@@ -97,18 +97,18 @@ function count_tags(type){
         return _ret;
     }
 }
-function print_authorlist(cate,colormode){
+function print_authorlist(cate){
 var max = authorlist[cate-1].length
     for(var i = 0; i<=max-1;i++){
-        document.write('<div style="width: 48%;height:35px;margin: 0 auto;display:inline-block;text-align:center"><a style="color: rgb(237,118,137,1);font-size: large;" href="./categories.html?cate='+cate+'&mode='+mode+'&author='+i+'">'+authorlist[cate-1][i]+'</a></div>');
+        document.write('<div style="width: 48%;height:35px;margin: 0 auto;display:inline-block;text-align:center"><a style="color: rgb(237,118,137,1);font-size: large;" href="./categories.html?cate='+cate+'&author='+i+'">'+authorlist[cate-1][i]+'</a></div>');
     };
 }
-function print_page(pagename,colormode){
+function print_page(pagename){
     if(pagename == pages){x = count%eachpage+(pagename-1)*eachpage}
     else{x = 10 + (pagename-1)*eachpage};
     for(var i = (pagename-1)*eachpage;i<x;){
         if(artmenu[i].type=="art"){
-            document.getElementById('pages-container').innerHTML += '<div class="article-box">'+'<div class="ab-content">'+'<a href="'+artmenu[i].links+'?mode='+colormode+'" class="article-img-box">'+'<img class="lazy-image article-img" data-src="'+artmenu[i].headpic+'" alt="" src="'+artmenu[i].headpic+'">'+'</a>'+'<div class="article-title">'+'<a href="'+artmenu[i].links+'?mode='+colormode+'">'+artmenu[i].name+'</a>'+'</div>'+'<div class="article-detail-box c-666">'+artmenu[i].detail+'</div>'+'<span class="article-tail-box">'+'<span class="article-date c-999">'+artmenu[i].time+'</span>'+'<span class="article-author one-line-overflow c-999">'+artmenu[i].author+'</span>'+'</span>'+'</div>'+'</div>'
+            document.getElementById('pages-container').innerHTML += '<div class="article-box">'+'<div class="ab-content">'+'<a href="'+artmenu[i].links+'" class="article-img-box">'+'<img class="lazy-image article-img" data-src="'+artmenu[i].headpic+'" alt="" src="'+artmenu[i].headpic+'">'+'</a>'+'<div class="article-title">'+'<a href="'+artmenu[i].links+'">'+artmenu[i].name+'</a>'+'</div>'+'<div class="article-detail-box c-666">'+artmenu[i].detail+'</div>'+'<span class="article-tail-box">'+'<span class="article-date c-999">'+artmenu[i].time+'</span>'+'<span class="article-author one-line-overflow c-999">'+artmenu[i].author+'</span>'+'</span>'+'</div>'+'</div>'
             i++;
         }
     }
@@ -117,7 +117,7 @@ var searchmode = 1;
 function clearcontent(elementID) {
     document.getElementById(elementID).innerHTML = "";
 };
-function print_category(cate,colormode,authornum){
+function print_category(cate,authornum){
     var max = artmenu.length;
     var date;
     date = artmenu[0].time.split("-");
@@ -127,7 +127,7 @@ function print_category(cate,colormode,authornum){
             if(artmenu[i].class==numcate[cate-1]){
                 date = artmenu[i].time.split("-");
                 if(parseInt(date[0])<inity){inity = date[0];document.write('<li class="person-intro-detail" style="font-size:x-large">【'+inity+'】</li>');}
-                document.write('<li class="person-intro-detail"><span class="date" style="font-size:small;color:#666">'+date[1]+'-'+date[2]+'  </span><a href="'+artmenu[i].links+'?mode='+colormode+'" class="title" style="font-size:x-large">'+artmenu[i].name+'</a><span class="date" style="font-size:small;color:#666"> By '+artmenu[i].author+'</span></li><br>');
+                document.write('<li class="person-intro-detail"><span class="date" style="font-size:small;color:#666">'+date[1]+'-'+date[2]+'  </span><a href="'+artmenu[i].links+'" class="title" style="font-size:x-large">'+artmenu[i].name+'</a><span class="date" style="font-size:small;color:#666"> By '+artmenu[i].author+'</span></li><br>');
             }
         }
     }else{
@@ -135,12 +135,12 @@ function print_category(cate,colormode,authornum){
             if(artmenu[i].class==numcate[cate-1] && artmenu[i].author == authorlist[cate-1][authornum]){
                 date = artmenu[i].time.split("-");
                 if(parseInt(date[0])<inity){inity = date[0];document.write('<li class="person-intro-detail" style="font-size:x-large">【'+inity+'】</li>');}
-                document.write('<li class="person-intro-detail"><span class="date" style="font-size:small;color:#666">'+date[1]+'-'+date[2]+'  </span><a href="'+artmenu[i].links+'?mode='+colormode+'" class="title" style="font-size:x-large">'+artmenu[i].name+'</a><span class="date" style="font-size:small;color:#666"> By '+artmenu[i].author+'</span></li><br>');
+                document.write('<li class="person-intro-detail"><span class="date" style="font-size:small;color:#666">'+date[1]+'-'+date[2]+'  </span><a href="'+artmenu[i].links+'" class="title" style="font-size:x-large">'+artmenu[i].name+'</a><span class="date" style="font-size:small;color:#666"> By '+artmenu[i].author+'</span></li><br>');
             }
         }
     }
 }
-function print_content(colormode){
+function print_content(){
     document.write('<li class="column-title">')
     document.write('<span class="at-sort b-b-ece fl"><a class="at-sort-comment-a c-666 fl" style="font-family: Georgia, Times New Roman, Times, serif;">文章</a></span>')
     document.write('</li>')
@@ -150,7 +150,7 @@ function print_content(colormode){
     for(var i = max-1; i>=0;i--){if(artmenu[i].type=='art'){
         date = artmenu[i].time.split("-");
         if(parseInt(date[0]) > inity){inity++;document.write('<li class="person-intro-detail gradient-text">'+inity+'</li>');}
-        document.write('<li class="person-intro-detail"><span class="date">'+date[1]+'-'+date[2]+' </span><a href="'+artmenu[i].links+'?mode='+colormode+'" class="title">'+artmenu[i].name+'</a></li>');
+        document.write('<li class="person-intro-detail"><span class="date">'+date[1]+'-'+date[2]+' </span><a href="'+artmenu[i].links+'" class="title">'+artmenu[i].name+'</a></li>');
     }};
 };
 function output(){

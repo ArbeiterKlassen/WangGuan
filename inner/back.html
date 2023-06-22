@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+
+<head>
+    <script type="text/javascript" src="../js/comcode/com_head.js"></script>
+    <title>WGSOC__特别文档</title>
+    <style rel="stylesheet">.lazy-image {background: url('../img/loading.gif') no-repeat center;background-size: 26% 35%;height: 100%;width: 100%;}</style>
+</head>
+
+<body>
+    <script type="text/javascript" src="../js/global_header.js"></script>
+    <div id="d-audio" class="d-audio" style="width: 150px; z-index: 99; position: fixed; bottom: 5px; left: 5px;"></div>
+    <!--主体-->
+    <script>
+        function getParams(key) {
+                var reg = new RegExp("(^|&)" + key + "=([^&]*)(&|$)");
+                var r = window.location.search.substr(1).match(reg);
+                if (r != null) {
+                    return unescape(r[2]);
+                }
+                return null;
+            };
+            var mode = 1;
+        if(localStorage.getItem("wgsoc-mode") != null){mode = parseInt(localStorage.getItem("wgsoc-mode"))};
+    </script>
+    <div class="big-container">
+        <article class="article">
+            <!--右容器-->
+            <div class="right-holder">
+                <div class="column-container">
+                    <ul class="column_box" id="like-box">
+                        <li class="column-title">
+                            <span class="at-sort b-b-ece fl"><a class="at-sort-comment-a c-666 fl" style="font-family: Georgia, 'Times New Roman', Times, serif;">分类</a></span>
+                        </li>
+                        <script>
+                            var translate = ['当代社会','望关读书会','法兰西哲学','意大利哲学','德意志哲学','古希腊哲学','苏东-俄罗斯哲学','西方马克思主义','其他哲学'];
+                            for(var i = 0;i<translate.length;i++){
+                                var link = '"categories.html?mode=' + mode + '&' + 'cate=' + (i+1) + '"';
+                                document.write('<li class="column-category">');
+                                document.write('<a href='+link+'>'+translate[i]);
+                                document.write('</a>')
+                            }
+                        </script>
+                    </ul>
+                </div>
+            </div>
+            <!--左容器-->
+            <div class="result-box fl">
+                <!--文章内容-->
+                <div class="left-holder">
+                    <!--文章内容-->
+                    <script type="text/javascript" src="../js/comcode/com_artmenu.js"></script>
+                    <div id="article-holder" style="width: 100%; float: left">
+                        <div id="pages-container"></div>
+                        <div id="chooser-container">
+                            <script>
+                                function getParams(key) {
+                                    var reg = new RegExp("(^|&)" + key + "=([^&]*)(&|$)");
+                                    var r = window.location.search.substr(1).match(reg);
+                                    if (r != null) {return unescape(r[2]);}return null;
+                                };
+                                var page = 1;var cate = 'all';
+                                if(getParams("page") != null){page = getParams("page")};
+                                function page_chooser(){
+                                    document.write('<div class="article-box" style="width:auto;height:32px;background-color:rgba(180,180,180,0)" id="choosen-container">')
+                                    document.write('    <div class="ab-content" style="background-color:rgba(180,180,180,0)">')
+                                    document.write('        <div style="height:32px;width:auto;border-radius:4px;margin: 0 auto;float:left;text-align:center;font-size:18px">'+"  共"+count+"篇文章 "+pages + "页  "+' </div>')
+                                    for(var i = 1;i<=pages;i++)document.write('<div class="choosen-box">'+'<a style="color:white" href="./category.html?page='+i+'">'+i+'</a></div>')
+                                    document.write('    </div>')
+                                    document.write('</div>')
+                                };
+                                print_page(page,mode);
+                                page_chooser();
+                                if(getParams("cate") != null){cate = getParams("cate")};
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+    <!--主题-->>
+    <div>
+        <script>
+            if(mode==1)document.write('<div style="padding-left: 10px;padding-right: 10px;color: rgb(0, 0, 0);z-index: 1000; width: auto; height: 40px; position: fixed; bottom: 40px; right: 17%; cursor: pointer; background-size: 100%; display: inline-block;border-radius: 20px;background-color:#000000"><a href="./index.html?mode=2" style="font-size:28px">✨</a></div>')
+            if(mode==2)document.write('<div style="padding-left: 10px;padding-right: 10px;color: rgb(0, 0, 0);z-index: 1000; width: auto; height: 40px; position: fixed; bottom: 40px; right: 17%; cursor: pointer; background-size: 100%; display: inline-block;border-radius: 20px;background-color:#ffffff"><a href="./index.html?mode=1" style="font-size:28px">🔆</a></div>')
+        </script>
+    </div>
+    <!--尾部-->
+    <script type="text/javascript" src="../js/comcode/footer.js"></script>
+    <script type="text/javascript">
+        // 图片懒加载
+        const lazyImage = new LazyImage('.lazy-image');
+    </script>
+</body>
+
+</html>

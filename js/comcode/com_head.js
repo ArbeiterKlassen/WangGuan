@@ -7,7 +7,7 @@ function getParams(key) {
     return null;
 };
 var mode = 1;
-if(getParams("mode") != null){mode = getParams("mode")};
+if(localStorage.getItem("wgsoc-mode") != null){mode = parseInt(localStorage.getItem("wgsoc-mode"))};
 if(mode == 1){
     document.write('<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">');
     document.write('<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">');
@@ -46,4 +46,4 @@ if(mode == 2){
     document.write('<link rel="stylesheet" href="../css/night.about.css">');
     document.write('<link rel="stylesheet" href="../css/font.css">');
     document.write('<link rel="shortcut icon" href="../headpage/icon.png">');
-}            
+}

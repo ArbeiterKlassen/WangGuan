@@ -7,7 +7,7 @@ function getParams(key) {
     return null;
 };
 var mode = 1;
-if(getParams("mode") != null){mode = getParams("mode")};
+if(localStorage.getItem("wgsoc-mode") != null){mode = parseInt(localStorage.getItem("wgsoc-mode"))};
 if(mode == 1){
 
     document.write('<link rel="stylesheet" href="../css/global.css">');

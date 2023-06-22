@@ -26,7 +26,7 @@
                 return null;
             };
             var mode = 1;
-            if(getParams("mode") != null){mode = getParams("mode")};
+            if(localStorage.getItem("wgsoc-mode") != null){mode = parseInt(localStorage.getItem("wgsoc-mode"))};
     </script>
     <script type="text/javascript" src="../js/global_header.js"></script>
     <script type="text/javascript" src="../js/comcode/com_artmenu.js"></script>
@@ -109,7 +109,7 @@
                 <div class="column-container">
                     <ul class="column_box" id="like-box">
                         <script>
-                            print_content(mode);
+                            print_content();
                         </script>
                     </ul>
                 </div>

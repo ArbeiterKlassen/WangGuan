@@ -3,7 +3,7 @@
 
 <head>
     <script type="text/javascript" src="../js/comcode/com_head.js"></script>
-    <title>WGSOC__分类</title>
+    <title>WGSOC__特别文档</title>
     <style rel="stylesheet">.lazy-image {background: url('../img/loading.gif') no-repeat center;background-size: 26% 35%;height: 100%;width: 100%;}</style>
 </head>
 
@@ -60,8 +60,8 @@
     <div class="headpic-cover">
         <div style="margin: 0 auto;top:210px;text-align: center;padding: 10px 10px 20px 20px;color: #ffffff;position: absolute;width: 100%;">
             <script type="text/javascript" src="../js/comcode/com_artmenu.js"></script>
-            <h1 style="font-family: 'Kanji-kai-2', 'Mulish', -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;margin: 0 auto;text-align: center;font-size: 70px;font-weight: 100;"><div style="color:red;display: inline;">文</div>章分类</h1>
-            <h4 style="font-family: 'Kanji-kai-2', 'Mulish', -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;margin: 0 auto;text-align: center;font-weight: 100;"><div style="color:red;display: inline;">A</div>rtikel-Kategorien</h4>
+            <h1 style="font-family: 'Kanji-kai-2', 'Mulish', -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;margin: 0 auto;text-align: center;font-size: 70px;font-weight: 100;"><div style="color:red;display: inline;">特</div>别文档</h1>
+            <h4 style="font-family: 'Kanji-kai-2', 'Mulish', -apple-system, 'PingFang SC', 'Microsoft YaHei', sans-serif;margin: 0 auto;text-align: center;font-weight: 100;"><div style="color:red;display: inline;">B</div>esondere Dokumente</h4>
         </div>
         <div style="text-align: center;padding: 10px 10px 20px 20px;color: #ffffffb6;width: 500px;height:auto;background-color: #0000006c;border-radius: 15px;position:relative;margin: 0 auto;top: 430px;">
             <i><script>
@@ -77,10 +77,11 @@
     <div class="big-container">
         <article class="article">
             <div style="width: 120px; height:auto;background-color: rgb(222, 0, 0);border-radius: 10px;">
-                <h3 style="text-align: center;color: #ffffff;">文章分类</h3>
+                <h3 style="text-align: center;color: #ffffff;">特别文档</h3>
             </div>
             <div class="topsign-title">
-                <h2 class="topsign-text">这里存放我们建站以来的所有已有的文章（可以慢慢翻）</h2>
+                <h2 class="topsign-text">涉及部分原因撤销的文章汇总</h2>
+                <h5 class="topsign-text">此板块文章浏览需访问权限，请谨慎浏览，不可随意截图，复制，传播，避免造成不可控后果</h5>
                 <br>
                 <br>
             </div>
@@ -128,7 +129,7 @@
                                     document.write('    </div>')
                                     document.write('</div>')
                                 };
-                                print_page(page);
+                                print_page(page,mode);
                                 page_chooser();
                                 if(getParams("cate") != null){cate = getParams("cate")};
                             </script>
@@ -141,8 +142,8 @@
     <!--主题-->>
     <div>
         <script>
-            if(mode==1)document.write('<div style="padding-left: 10px;padding-right: 10px;color: rgb(0, 0, 0);z-index: 1000; width: auto; height: 40px; position: fixed; bottom: 40px; right: 17%; cursor: pointer; background-size: 100%; display: inline-block;border-radius: 20px;background-color:#000000"><a href="./category.html?mode=2" style="font-size:28px">✨</a></div>')
-            if(mode==2)document.write('<div style="padding-left: 10px;padding-right: 10px;color: rgb(0, 0, 0);z-index: 1000; width: auto; height: 40px; position: fixed; bottom: 40px; right: 17%; cursor: pointer; background-size: 100%; display: inline-block;border-radius: 20px;background-color:#ffffff"><a href="./category.html?mode=1" style="font-size:28px">🔆</a></div>')
+            if(mode==1)document.write('<div style="padding-left: 10px;padding-right: 10px;color: rgb(0, 0, 0);z-index: 1000; width: auto; height: 40px; position: fixed; bottom: 40px; right: 17%; cursor: pointer; background-size: 100%; display: inline-block;border-radius: 20px;background-color:#000000"><a href="./index.html?mode=2" style="font-size:28px">✨</a></div>')
+            if(mode==2)document.write('<div style="padding-left: 10px;padding-right: 10px;color: rgb(0, 0, 0);z-index: 1000; width: auto; height: 40px; position: fixed; bottom: 40px; right: 17%; cursor: pointer; background-size: 100%; display: inline-block;border-radius: 20px;background-color:#ffffff"><a href="./index.html?mode=1" style="font-size:28px">🔆</a></div>')
         </script>
     </div>
     <!--尾部-->
