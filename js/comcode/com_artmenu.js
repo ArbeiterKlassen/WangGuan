@@ -60,6 +60,71 @@ var artmenu = [
     {type:"arc",subtype:"normal",links:"./archive.html",time:"2022-09-30",author:"未知",name:"文件备案 历史资料 千禧年后社会调研分析报告[PDF]",headpic:"",detail:""},
 //{links,time,author,name},
 ]
+function questionclear(){
+    document.getElementById('changingpage').innerHTML = ''
+}
+var questions = [
+    {q:"柏拉图理论体系的主要构成是？",a1:'数论、迷狂说、回忆说、效用说和通种论',a2:'数论、迷狂说、回忆说、效用说和物理学',a3:'数论、迷狂说、逻辑学、效用说和物理学',a4:'数论、形而上学说、物理学、效用说和通种论',a5:'本体论、形而上学说、物理学、效用说和通种论',ans:1},
+    {q:"康德哲学的特点及其集大成著作？",a1:'批判哲学，《判断力批判》',a2:'建构哲学，《判断力批判》',a3:'批判哲学，《纯粹理性批判》',a4:'建构哲学，《实践理性批判》',a5:'批判哲学，《纯粹理性批判》',ans:1},
+    {q:'逻辑学的概念？',a1:'是哲学理论的先验性理论，对其他一切哲学理论具有普遍适用性',a2:'是由事物的内在逻辑系统与质料组合形成的物质系统',a3:'是指事物的内在性“理性自存”，以及事物处于某个存在性境遇中的存在现象',a4:'是指事物反应到人的意识系统中，由意识系统对反应结果进行信息处理的过程',a5:'是人根据自我意识，将对象事物按照自我意识进行具体化、物质化、器具化的过程',ans:1},
+    {q:'黑格尔《逻辑学》中，纯有和纯无的统一运动称为什么？',a1:"变",a2:"统一",a3:"二律背反",a4:"合",a5:"质",ans:1},
+    {q:'黑格尔绝对精神的认识运动先后经历了？',a1:"知性，感性，消极理性，积极理性",a2:"感性，知性，消极理性，积极理性",a3:"感性，知性，积极理性，消极理性",a4:"感性，知性，理性",a5:"知性，积极理性，消极理性，感性",ans:2},
+    {q:'康德弟四组二律背反是？',a1:'时间与空间',a2:'关于宇宙的成因',a3:'关于自由意志',a4:'关于宇宙的成因',a5:'关于人类理性',ans:2},
+    {q:'充足理由律的四种不同表现形式中，逻辑真理的成立必然存在一个先验的、在它之前的真理？',a1:'因果律',a2:'逻辑推论',a3:'逻辑推论',a4:'行为动机',a5:'充足理由律',ans:2},
+    {q:'谢林早期哲学的理性自由主义巅峰著作？',a1:"论一种绝对形式哲学的可能性",a2:'先验唯心论体系',a3:'宗教与哲学',a4:'对人类自由本质的研究',a5:'天启哲学',ans:2},
+    {q:'拉康理论的实在界？',a1:'即镜像阶段。或者说前语言阶段，意指婴儿主体在镜子中看到客体“我”的历程，并从他者那里获取自身存在的镜像投射。',a2:'即用语言符号编织的世界认知、语法、规则、文化逻辑，文学理论等。',a3:'喻指语言符号所覆盖不到的地方，它是主体所处的一种独立于理性思想和客观存在的原始状态，那里没有符号，也没有意识',a4:'是我们想象的场景，整个界遇，想象界可以是一种幻想，是阻碍我们抵挡真实的一道屏障',a5:'由律令而引入的。这些律令也包括语言，语言决定和支配了人类-我们可以共处的一种可能',ans:3},
+    {q:'苏东马克思主义的代表人物有？',a1:'科尔施',a2:'葛兰西',a3:'日丹诺夫',a4:'马雅科夫斯基',a5:'齐泽克',ans:3},
+    // {q,a1,a2,a3,a4,a5,ans},
+    // {q,a1,a2,a3,a4,a5,ans},
+    // {q,a1,a2,a3,a4,a5,ans},
+    // {q,a1,a2,a3,a4,a5,ans},
+    // {q,a1,a2,a3,a4,a5,ans},
+    // {q,a1,a2,a3,a4,a5,ans},
+    // {q,a1,a2,a3,a4,a5,ans},
+    // {q,a1,a2,a3,a4,a5,ans},
+    // {q,a1,a2,a3,a4,a5,ans},
+    // {q,a1,a2,a3,a4,a5,ans}
+]
+function record_questionaire(code,ans){
+    if(localStorage.getItem('wgsoc-questionaire-mark') == null)localStorage.setItem('wgsoc-questionaire-mark','0');
+    if(ans == questions[code].ans)localStorage.setItem('wgsoc-questionaire-mark',parseInt(localStorage.getItem('wgsoc-questionaire-mark'))+10);
+}
+function questionaire(code){
+    questionclear();
+    if(code>=questions.length){
+        document.getElementById('changingpage').innerHTML = `                    
+        <h1 class="about_line" style="text-align: center;">已完成10个题目</h1>
+        <h3 class="about_line" style="text-align: center;">10 Fragen ausgefüllt</h3>
+        <h3 class="about_line" style="text-align: center;">10 questions completed</h3>
+        <br>
+        <h3 class="about_line" style="text-align: center;">根据您的知识水平，您获得了</h3>
+        <script>document.write(localStorage.getItem('wgsoc-questionaire-mark'))</script>
+        <br>
+        <script>localStorage.setItem('wgsoc-admission',0000000001)</script>
+        <li>
+            <script src="../js/comcode/com_artmenu.js"></script>
+            <div style="background-color: rgb(4, 201, 4);border-radius: 10px;width: 200px;height: 30px;margin: 0 auto;text-align: center;font-size: 20px;padding: 2px 2px 2px 2px; color: azure;"><a href="javascript:void(0)" onclick="questionaire(0);">接受测试!</a></div>
+            <br>
+            <div style="background-color: rgb(255, 34, 34);border-radius: 10px;width: 200px;height: 30px;margin: 0 auto;text-align: center;font-size: 20px;padding: 2px 2px 2px 2px; color: azure;"><a href="../templates/index.html">还是返回首页吧</a></div>
+        </li>`
+        return;
+    }//超限
+    document.getElementById('changingpage').innerHTML = `
+    <li><h3 class="about_line">  Q.`+(code+1)+' '+questions[code].q+`</h3></li>
+    <li><span class="description">A. '`+questions[code].a1+`'</span></li>
+    <li><span class="description">B. '+`+questions[code].a2+`'</span></li>
+    <li><span class="description">C. '+`+questions[code].a3+`'</span></li>
+    <li><span class="description">D. '+`+questions[code].a4+`'</span></li>
+    <li><span class="description">E. '+`+questions[code].a4+`'</span></li>
+    <div style="text-align: center;width: 100%;">
+    <div style="display: inline-block;height: 33px;width:33px;border-radius: 17px;background-color: rgb(255, 255, 255);font-size: x-large;"><a href="javascript:void(0)" onclick="record_questionaire(`+code+`,1);questionaire(`+(code+1)+`)">A</a></div> 
+    <div style="display: inline-block;height: 33px;width:33px;border-radius: 17px;background-color: rgb(255, 255, 255);font-size: x-large;"><a href="javascript:void(0)" onclick="record_questionaire(`+code+`,2);questionaire(`+(code+1)+`)">B</a></div> 
+    <div style="display: inline-block;height: 33px;width:33px;border-radius: 17px;background-color: rgb(255, 255, 255);font-size: x-large;"><a href="javascript:void(0)" onclick="record_questionaire(`+code+`,3);questionaire(`+(code+1)+`)">C</a></div> 
+    <div style="display: inline-block;height: 33px;width:33px;border-radius: 17px;background-color: rgb(255, 255, 255);font-size: x-large;"><a href="javascript:void(0)" onclick="record_questionaire(`+code+`,4);questionaire(`+(code+1)+`)">D</a></div> 
+    <div style="display: inline-block;height: 33px;width:33px;border-radius: 17px;background-color: rgb(255, 255, 255);font-size: x-large;"><a href="javascript:void(0)" onclick="record_questionaire(`+code+`,5);questionaire(`+(code+1)+`)">E</a></div>
+    </div>
+    `
+}
 var translate = ['当代社会','望关读书会','法兰西哲学','意大利哲学','德意志哲学','古希腊哲学','苏东-俄罗斯哲学','西方马克思主义','其他哲学'];
 var numcate = ['soc','wan','fra','ita','deu','gre','rus','wma','oth'];
 var authorlist = [

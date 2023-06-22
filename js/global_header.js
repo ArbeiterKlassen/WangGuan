@@ -15,6 +15,13 @@ function pagereload(colormode){
     localStorage.setItem('wgsoc-mode',colormode);
     window.location.reload();
 }
+function hasadmission(){
+    if(localStorage.getItem('wgsoc-admission') == null){
+        return false;
+    }else{
+        return true;
+    }
+}
 
 document.write('<!-- 悬挂的喵 -->')
 document.write('<script type="text/javascript" src="../js/hangingcat/hangingcat.js" defer=""></script>')
