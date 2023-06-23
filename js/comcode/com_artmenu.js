@@ -128,7 +128,7 @@ var max = artmenu.length;
 var count = 0;
 var specialcount = 0;
 for(var i = 0; i<max;i++){if(artmenu[i].type=='art'){count+=1}};
-for(var i = 0; i<max;i++){if(specialartmenu[i].type=='art'){specialcount+=1}};
+for(var i = 0; i<specialartmenu.length;i++){if(specialartmenu[i].type=='art'){specialcount+=1}};
 var pages = (count - count%eachpage)/eachpage + 1;
 var specialpages = (specialcount - specialcount%eachpage)/eachpage + 1;
 var initpage = 1;
@@ -170,7 +170,7 @@ function print_specialpage(pagename){
     if(pagename == specialpages){x = specialcount%eachpage+(pagename-1)*eachpage}
     else{x = 10 + (pagename-1)*eachpage};
     for(var i = (pagename-1)*eachpage;i<x;){
-        if(artmenu[i].type=="art"){
+        if(specialartmenu[i].type=="art"){
             document.getElementById('pages-container').innerHTML += '<div class="article-box">'+'<div class="ab-content">'+'<a href="'+specialartmenu[i].links+'" class="article-img-box">'+'<img class="lazy-image article-img" data-src="'+specialartmenu[i].headpic+'" alt="" src="'+specialartmenu[i].headpic+'">'+'</a>'+'<div class="article-title">'+'<a href="'+specialartmenu[i].links+'">'+specialartmenu[i].name+'</a>'+'</div>'+'<div class="article-detail-box c-666">'+specialartmenu[i].detail+'</div>'+'<span class="article-tail-box">'+'<span class="article-date c-999">'+specialartmenu[i].time+'</span>'+'<span class="article-author one-line-overflow c-999">'+specialartmenu[i].author+'</span>'+'</span>'+'</div>'+'</div>'
             i++;
         }
