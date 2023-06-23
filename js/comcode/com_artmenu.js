@@ -108,7 +108,7 @@ function questionaire(code){
         </li>`
         if(parseInt(localStorage.getItem('wgsoc-questionaire-mark'))>90)localStorage.setItem('wgsoc-admission','0000000001')
         document.getElementById('changingpage').innerHTML +=`
-        <div style="background-color: rgb(4, 201, 4);border-radius: 10px;width: 200px;height: 30px;margin: 0 auto;text-align: center;font-size: 20px;padding: 2px 2px 2px 2px; color: azure;"><a href="./index.html">获得浏览资格!</a></div>
+        <br><li><div style="background-color: rgb(4, 201, 4);border-radius: 10px;width: 200px;height: 30px;margin: 0 auto;text-align: center;font-size: 20px;padding: 2px 2px 2px 2px; color: azure;"><a href="./index.html">获得浏览资格!</a></div></li>
         `
         return;
     }//超限
