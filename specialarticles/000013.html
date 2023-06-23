@@ -27,7 +27,21 @@
 </head>
 <body>
     <script type="text/javascript" src="../js/global_header.js"></script>
-    <div id="d-audio" class="d-audio" style="width: 150px; z-index: 99; position: fixed; bottom: 5px; left: 5px;"></div>"
+    <div id="d-audio" class="d-audio" style="width: 150px; z-index: 99; position: fixed; bottom: 5px; left: 5px;"></div>
+
+
+    <!--校验权限-->
+    <script>
+        if(!hasadmission()){
+            window.location.href = './back.html'
+        }else{
+            if(localStorage.getItem('wgsoc-admission') != '0000000001'){
+                window.location.href = '../inner/back.html'
+            }
+        }
+    </script>
+
+"
     <!--主体-->
     <section class="main">
         <label for="article_id"></label><input hidden id="article_id" name="article_id" value="55">

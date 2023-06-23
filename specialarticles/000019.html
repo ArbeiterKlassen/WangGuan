@@ -9,7 +9,7 @@
     <meta name="keywords" content="">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>集权论-法西斯主义是什么</title>
+    <title>一线汽修工人采访记录</title>
     <script type="text/javascript" src="../js/comcode/com_arthead.js"></script>
     <link rel="stylesheet" href="../css/font.css">
     <style>
@@ -30,6 +30,20 @@
 <body>
     <script type="text/javascript" src="../js/global_header.js"></script>
     <div id="d-audio" class="d-audio" style="width: 150px; z-index: 99; position: fixed; bottom: 5px; left: 5px;"></div>
+
+
+    <!--校验权限-->
+    <script>
+        if(!hasadmission()){
+            window.location.href = './back.html'
+        }else{
+            if(localStorage.getItem('wgsoc-admission') != '0000000001'){
+                window.location.href = '../inner/back.html'
+            }
+        }
+    </script>
+
+
     <!--主体-->
     <section class="main">
         <label for="article_id"></label><input hidden id="article_id" name="article_id" value="55">
@@ -44,15 +58,29 @@
             <!--文章内容-->
             <div class="article-container">
                 <div class="article-content markdown-body">
-                    <h1 style="margin: 10px 0">集权论-法西斯主义是什么</h1>
+                    <h1 style="margin: 10px 0">一线汽修工人采访记录</h1>
                     <div class="writer-info">
                         <span style="margin: 5px 0;">作者: </span>
-                        <span id="writer">浮生</span>
+                        <span id="writer">铃秋</span>
                         <span id="write-time">2022-12-15 0:0:0</span>
                     </div>
-                    <div style="width: 98%;height: auto;">
-                        <img src="https://i.328888.xyz/2022/12/16/4b6mo.png" alt="">
-                    </div>
+                    <p>
+                        <br>  Q：同志，请问有时间吗，可以采访一下关于您工作的事情吗
+                        <br>  A：我想想，老板动不动扣钱，打卡迟到扣钱，请假扣钱，每个礼拜一天休息时间，老员工工资最近突然少了一千好像，但我一个月就那九百块钱，所以没动我的
+                        <br>  Q：那么每天工作多久呢
+                        <br>  A：八点上班，中午十二点吃饭休息，一点上班六点下班，若工作没做完可以加班，但不加钱，休息的时候你如果打算加班的话可以给你加一百，或者把这一天攒下来
+                        <br>  Q:请问工作环境怎么样呢？
+                        <br>  A：有休息室有空调，没人用，但能运行，有热水有猫猫，但最近老板不让休息室待,逼着让我们到“加油站”学习新知识
+                        <br>  Q:加油站是？
+                        <br>  A：从库房独立出来的一个空间，摆了些桌子，放了个投影仪，放了些凳子，然后在那里下班后那些老师直播，我们学习
+                        <br>  Q：新知识指的是工作用的理论吗
+                        <br>  A：并不是，有很多是我们之前的知识，只有些小知识和他们的新产品的优点,说白了还是没啥用,等于是让你知道怎么推销他们的机油，防冻液，变速箱油巴拉巴拉什么的我是修车的不是销售的,所以自然这些我都不看,挂个后台题一答就过了
+                        <br>  Q：对于这个工作整体的感受是什么呢
+                        <br>  A：还好，很累很充实，累了到休息室撸会猫就好了
+                        <br>  Q：请问最后还有什么想要说的吗
+                        <br>  A：想多休几天回家陪陪家里人，想让厨师知道那些东西不能放在一起吃，我会闹肚子，想让老板知道，他那些想法真的很烂很不切实际，想让厂长明白，并不是所有事让我来做就是磨练我，那是你懒
+                        <br>  Q：好的，谢谢同志
+                    </p><br>
                 </div>
             </div>
         </div>
