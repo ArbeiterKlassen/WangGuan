@@ -175,6 +175,15 @@
     color: white;
 }
 
+.article-content .infomation-list {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    background-color: rgba(44, 37, 60, 0.526);
+    color: #ffffff;
+    padding: 2px 2px 2px 2px;
+}
+
 /*.article-content img {
     display: block;
     max-width: 680px;
