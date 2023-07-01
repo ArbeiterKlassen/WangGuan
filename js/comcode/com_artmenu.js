@@ -1,4 +1,6 @@
 var artmenu = [
+    {number:19,type:"art",class:"deu",subtype:"normal",links:"../articles/000019.html",time:"2023-7-1",author:"西奥多·阿多诺",name:"西奥多·阿多诺:电影的透明性",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
+    {number:18,type:"art",class:"deu",subtype:"normal",links:"../articles/000018.html",time:"2023-7-1",author:"Jeffrey A. Bernstein",name:"Jeffrey A. Bernstein:犹太教与历史",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
     {number:17,type:"art",class:"deu",subtype:"normal",links:"../articles/000017.html",time:"2023-6-5",author:"阿尔方索·林吉斯",name:"阿尔方索·林吉斯：尼采与动物",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
     {number:16,type:"art",class:"deu",subtype:"normal",links:"../articles/000016.html",time:"2023-05-29",author:"胡塞尔",name:"胡塞尔：现象学的四条原理",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
     {number:15,type:"art",class:"deu",subtype:"normal",links:"../articles/000015.html",time:"2023-05-28",author:"朱利安·杨",name:"朱利安·杨：什么是四合？",headpic:"https://i.postimg.cc/50T0J5fV/philosophy1.jpg",detail:""},
