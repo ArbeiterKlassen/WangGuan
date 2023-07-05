@@ -14,3 +14,5 @@ WangGuan Sociological
   Contact:
   <br>Link:<a href=""></a>
 </div>
+<br>
+<br>网站暂时关闭，重启时间无限期推迟
